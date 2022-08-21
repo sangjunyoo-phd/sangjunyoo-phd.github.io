@@ -4,8 +4,8 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Research"
     url: /research/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Publications"
+    url: /publications/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

@@ -1,6 +1,6 @@
 ---
 title: "Research"
-layout: splash
+#layout: splash
 permalink: /research/
 ---
 
