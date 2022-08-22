@@ -4,6 +4,8 @@ layout: splash
 permalink: /research/
 ---
 
+\\
+
 # Retrieving precious Lanthanide Ions from Water
 
 ![image-right](../assets/images/exp_setup.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="50%" width="50%"}
