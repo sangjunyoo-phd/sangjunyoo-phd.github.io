@@ -16,7 +16,7 @@ However, lack of selectivity leads to hundreds of cycles of solvent extraction t
 Transferring mechanism of metallic ions through liquid-liquid extraction is essential to understanding and improving the selectivity of the separation process. 
 I have been researching adsorption of Lanthanide elements to a charged extractant Langmuir monolayer at the air-water interface with synchrotron-sourced X-rays.
 
-## Spontaneous Ion-Specific Complexation of Heavier Lanthanide at the Air-Water Interface
+## Spontaneous & Ion-Specific Complexation of Heavier Lanthanide with Extractant at the Air-Water Interface
 ![image-left](../assets/images/Abstract_Figure.png){: .align-left}{:style="border: 0px solid black; padding: 0px"}{:height="50%" width="50%"}
 
 * Extractant molecules form monolayers at the air-water and liquid-liquid interface
