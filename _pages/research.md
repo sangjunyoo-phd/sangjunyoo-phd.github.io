@@ -8,7 +8,7 @@ permalink: /research/
 
 # Retrieving precious Lanthanide Ions from Water
 
-![image-left](../assets/images/exp_setup.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="50%" width="50%"}
+![image-right](../assets/images/exp_setup.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="50%" width="50%"}
 
 Solvent Extraction, a mechanism that transfers ions from water to oil with the assistance of amphiphilic molecules (extractant), is a widely used method to retrieve precious metals from wastewater.
 However, lack of selectivity leads to hundreds of cycles of solvent extraction to achieve industry-relevant purity which makes the retrieving process energy-intensive and generates environmental pollutants (off-gassing acid and organic solvent).
@@ -17,7 +17,7 @@ Transferring mechanism of metallic ions through liquid-liquid extraction is esse
 I have been researching adsorption of Lanthanide elements to a charged extractant Langmuir monolayer at the air-water interface with synchrotron-sourced X-rays.
 
 ## Spontaneous Ion-Specific Complexation of Heavier Lanthanide at the Air-Water Interface
-![image-right](../assets/images/Abstract_Figure.png){: .align-right}{:style="border: 3px solid black; padding: 10px"}{:height="50%" width="50%"}
+![image-left](../assets/images/Abstract_Figure.png){: .align-left}{:style="border: 3px solid black; padding: 0px"}{:height="50%" width="50%"}
 
 * Extractant molecules form monolayers at the air-water and liquid-liquid interface
 * It is still true when there is a light lanthanide element (an atomic number less than 65) in the solution
@@ -26,7 +26,7 @@ I have been researching adsorption of Lanthanide elements to a charged extractan
 
 ## The Role of the Bilayer Structure in the Solvent Extraction
 
-![image-right](../assets/images/Abstract.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="50%" width="50%"}
+![image-right](../assets/images/Abstract.png){: .align-right}{:style="border: 0px solid black; padding: 0px"}{:height="50%" width="50%"}
 
 * Performed model extractions with Er (heavier) and Nd (lighter)
 * Role of the bilayer structure during the solvent extraction was studied
