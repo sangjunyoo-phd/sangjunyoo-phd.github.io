@@ -4,7 +4,7 @@ layout: splash
 permalink: /research/
 ---
 
-# Retrieving precious Lanthanide ions from water
+# Retrieving precious Lanthanide Ions from Water
 
 ![image-right](../assets/images/exp_setup.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="50%" width="50%"}
 
@@ -18,10 +18,11 @@ I have been researching adsorption of Lanthanide elements to a charged extractan
 ![image-left](../assets/images/Abstract_Figure.png){: .align-left}{:style="border: 3px solid black; padding: 10px"}{:height="50%" width="50%"}
 
 It is well known that extractant molecules form monolayers at the air-water and liquid-liquid interface.
-This is still true when there is light lanthanide element (atomic number less than 65) in the solution.
+This is still true when there is a light lanthanide element (an atomic number less than 65) in the solution.
 However, with heavier lanthanide elements (Z>65), a characteristic bilayer structure was found with X-ray scattering.
-It's structure is easily detachable from the water, so ion-specific formation of the bilayer structure can be beneficial to selective extraction of heavier lanthanide elements
+Its structure is easily detachable from the water, so the ion-specific formation of the bilayer structure can be beneficial to the selective extraction of heavier lanthanide elements
 
-## The Role of the Bilayer Structure at the Model Extraction System
+## The Role of the Bilayer Structure in the Model Extraction System
 
 The previous found motivated me to perform the model extraction with Er (heavier lanthanide; bilayer) and Nd (lighter lanthanide; monolayer)
+
