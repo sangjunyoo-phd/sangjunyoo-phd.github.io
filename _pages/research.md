@@ -15,7 +15,7 @@ Transferring mechanism of metallic ions through liquid-liquid extraction is esse
 I have been researching adsorption of Lanthanide elements to a charged extractant Langmuir monolayer at the air-water interface with synchrotron-sourced X-rays.
 
 ## Spontaneous Ion-Specific Complexation of Heavier Lanthanide at the Air-Water Interface
-![image-left](../assets/images/Abstract_Figure.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="50%" width="50%"}
+![image-left](../assets/images/Abstract_Figure.png){: .align-left}{:style="border: 3px solid black; padding: 10px"}{:height="50%" width="50%"}
 
 It is well known that extractant molecules form monolayers at the air-water and liquid-liquid interface.
 This is still true when there is light lanthanide element (atomic number less than 65) in the solution.
