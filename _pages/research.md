@@ -24,7 +24,7 @@ I have been researching adsorption of Lanthanide elements to a charged extractan
 * However, with heavier lanthanide elements (Z>65), a characteristic bilayer structure was found with X-ray scattering
 * The easily-detachable nature of the ion-specific complex structure can be beneficial to the selective extraction of heavier lanthanide elements
 
-## The Role of the Bilayer Structure in the Model Extraction System
+## The Role of the Bilayer Structure in the Solvent Extraction
 
 ![image-right](../assets/images/Abstract.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="50%" width="50%"}
 
