@@ -28,7 +28,7 @@ I have been researching adsorption of Lanthanide elements to a charged extractan
 
 ![image-right](../assets/images/Abstract.png){: .align-right}{:style="border: 0px solid black; padding: 0px"}{:height="50%" width="50%"}
 
-* Performed model extractions with Er (heavier) and Nd (lighter)
+* Performed model extractions with Er (heavier & bilayer) and Nd (lighter & monolayer)
 * Role of the bilayer structure during the solvent extraction was studied
 * The bilayer structure enhanced the extraction performance, speed and selectivity
 * The selectivity of Er over Nd increased from 1.1 to 7 when the interface is less saturated with extractant molecules
