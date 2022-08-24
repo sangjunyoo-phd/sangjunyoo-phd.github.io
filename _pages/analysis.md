@@ -4,7 +4,16 @@ title: "Data Analysis Method"
 permalink: /analysis/
 ---
 
-Add analysis method used for research
+A lot of data analysis and mathematical formulations are done during research. This page showcases how I did them in detail.
+
+## X-ray Reflectivity Analysis
+
+X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
+The specular reflectivity intensity profile as a function of incident (=reflection) angle contains information about the electron density of the material along the z-axis (when surface is x-y plane).
+
+(R(Q_z))/(R_F (Q_z)) 〖=|1/ρ_∞  ∫▒(dρ(z))/dz e^(iQ_z*z) dz|〗^2
+
+
 * Isotherm
 * X-ray reflectivity
 * ICP-MS data -> Extraction
