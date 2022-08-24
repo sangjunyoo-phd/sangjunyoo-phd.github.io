@@ -1,6 +1,6 @@
 ---
 title: "Data Analysis Method"
-#layout: splash
+layout: splash
 permalink: /analysis/
 ---
 
@@ -11,7 +11,7 @@ A lot of data analysis and mathematical formulations are done during research. T
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
 The specular reflectivity intensity profile as a function of incident (=reflection) angle contains information about the electron density of the material along the z-axis (when surface is x-y plane).
 
-(R(Q_z))/(R_F (Q_z)) 〖=|1/ρ_∞  ∫▒(dρ(z))/dz e^(iQ_z*z) dz|〗^2
+$$ (R(Q_z))/(R_F (Q_z)) 〖=|1/ρ_∞  ∫▒(dρ(z))/dz e^(iQ_z*z) dz|〗^2 $$
 
 
 * Isotherm
