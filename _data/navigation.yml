@@ -6,6 +6,8 @@ main:
     url: /mlprojects/
   - title: "Research"
     url: /research/
+  - title: "Data Analysis"
+    url: /analysis/
   - title: "Publications"
     url: /publications/
   # - title: "Sitemap"
