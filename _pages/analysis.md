@@ -2,6 +2,8 @@
 title: "Data Analysis Method"
 layout: archive
 permalink: /analysis/
+tags:
+  - content
 toc: true
 toc_sticky: true
 ---
