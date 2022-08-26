@@ -15,7 +15,7 @@ $$ \frac{R(Q_{z})} {R_{F} (Q_{z})} = \left| \frac{1}{\rho_{\infty}} \int \frac{d
 
 Herein, 
 $R_{F}(Q_{z})$ 
-is Normalization factor, 
+is a normalization factor, 
 $Q_{z}$ 
 is a vector that is determined by energy of the beam and angular difference between incident and reflected beams, 
 $\rho(z)$ 
