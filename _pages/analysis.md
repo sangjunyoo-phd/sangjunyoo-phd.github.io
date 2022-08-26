@@ -11,9 +11,7 @@ A lot of data analysis and mathematical formulations are done during research. T
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
 The specular reflectivity intensity profile as a function of incident (=reflection) angle contains information about the electron density of the material along the z-axis (when surface is x-y plane).
 
-$$ {R(Q_{z})} \over {R_{F}(Q_{z})} = something $$
-
-$${R(Q_{z})} \over {R_{F} (Q_{z})} = \left| {1} \over {ρ_{∞}}  \int (dρ(z))/dz e^(iQ_z*z) dz \right|^{2}$$
+[!equation] $${R(Q_{z})} \over {R_{F} (Q_{z})} = \left| {1} \over {ρ_{∞}}  \int (dρ(z))/dz e^(iQ_z*z) dz \right|^{2}$$
 
 * Isotherm
 * X-ray reflectivity
