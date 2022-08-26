@@ -11,6 +11,8 @@ A lot of data analysis and mathematical formulations are done during research. T
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
 The specular reflectivity intensity profile as a function of incident (=reflection) angle contains information about the electron density of the material along the z-axis (when surface is x-y plane).
 
+1
+
 \\[ {R(Q_{z})} \over {R_{F} (Q_{z})} = 
 {1} \over {\rho_{\inf}}\\]
 
