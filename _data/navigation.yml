@@ -4,6 +4,8 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "ML&DS Projects"
     url: /mlprojects/
+  - title: "Deep Learning"
+    permalink: /deeplearning/
   - title: "Research"
     url: /research/
   - title: "Data Analysis"
