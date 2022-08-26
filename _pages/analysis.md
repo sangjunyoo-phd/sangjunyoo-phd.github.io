@@ -14,9 +14,10 @@ The specular reflectivity intensity profile as a function of incident (=reflecti
 1
 
 \\[ {R(Q_{z})} \over {R_{F} (Q_{z})} = 
-{1} \over {\rho_{\inf}}\\]
+{1} \over {\rho_{\infty}}\\]
 
- = \left| {1} \over {ρ_{∞}}  \int (dρ(z))/dz e^(iQ_z*z) dz \right|^{2}
+$$ {R(Q_{z})} \over {R_{F} (Q_{z})} $$
+
 * Isotherm
 * X-ray reflectivity
 * ICP-MS data -> Extraction
