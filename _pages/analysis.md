@@ -17,7 +17,9 @@ Herein, \\(R_{F}(Q_{z})\\) is a normalization factor, \\(Q_{z}\\) is a vector th
 \\(\rho_{\infty}\\) is the electron density of the bulk of the substrate (water in my case).
 
 ### There is no easy way to fit the data with the equation above directly. 
-Instead, formulating the model electron density profile \\(\rho(z)\\) with some fitting parameters is one of the most widely used method.
+To make this problem solvable, people formulate the model electron density profile \\(\rho(z)\\) with some fitting parameters.
+### Slab Model
+is one of the most widely used method that make an electron density consists of conceptual slabs with uniform electron density.
 
 * Isotherm
 * X-ray reflectivity
