@@ -4,7 +4,7 @@ layout: splash
 permalink: /analysis/
 ---
 
-A lot of data analysis and mathematical formulations are done during research. This page showcases how I did them in detail.
+**A lot of data analysis and mathematical formulations are done during research. This page showcases how I did them in detail.**
 
 # X-ray Reflectivity Analysis
 
