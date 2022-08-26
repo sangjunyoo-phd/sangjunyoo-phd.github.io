@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Archive Layout with Content"
-    url: /archive-layout-with-content/#- title: "Quick-Start Guide"
+    url: /archive-layout-with-content/
   - title: "ML&DS Projects"
     url: /mlprojects/
   - title: "Deep Learning"
