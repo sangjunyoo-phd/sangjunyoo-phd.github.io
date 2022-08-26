@@ -2,6 +2,8 @@
 title: "Data Analysis Method"
 layout: archive
 permalink: /analysis/
+toc: true
+toc_sticky: true
 ---
 
 **A lot of data analysis and mathematical formulations are done during research. This page showcases how I did them in detail.**
