@@ -17,7 +17,7 @@ Herein, \\(R_{F}(Q_{z})\\) is a normalization factor, \\(Q_{z}\\) is a vector th
 
 **There is no easy way to calculate the \\(\rho(z)\\) from the equation above directly.** To make this problem solvable, people formulate the model EDP \\(\rho(z)\\) with some fitting parameters and a **Slab Model** is one of the most widely used method. This model consists of several conceptual slabs with uniform electron densities. i-th slab has three fitting parameters: electron density \\(\rho_{i}\\), thickness \\(d_{i}\\), and roughness \\(\sigma_{i}\\). Then the model can be expressed as a sum of the error functions.
 
-$$ \rho(z) = \rho_{0} + \sum_{i=1}^{N} \frac{\rho_{i}-\rho_{i-1}}{2} \left( erf(\frac{z-z_{i}}{\sqrt(2\sigma_{i})}) +1 \right) $$
+$$ \rho(z) = \rho_{0} + \sum_{i=1}^{N} \frac{\rho_{i}-\rho_{i-1}}{2} \left( erf(\frac{z-z_{i}}{\sqrt(2)\sigma_{i}}) +1 \right) $$
 
 * Isotherm
 * X-ray reflectivity
