@@ -1,11 +1,11 @@
 # main links
 main:
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Archive Layout with Content"
+    url: /archive-layout-with-content/#- title: "Quick-Start Guide"
   - title: "ML&DS Projects"
     url: /mlprojects/
   - title: "Deep Learning"
-    permalink: /deeplearning/
+    url: /deeplearning/
   - title: "Research"
     url: /research/
   - title: "Data Analysis"
