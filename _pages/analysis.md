@@ -31,6 +31,8 @@ $$ \frac{R(Q_{z})} {R_{F} (Q_{z})} = \left| \sum_{i=0}^{N} \frac{\sigma_{i}-\sig
 
 By minimizing the residual (chi-square) between the collected and the formulated reflectivity, the thickness, electron density, and roughness of each slab are determined.
 
+![image-center](../assets/images/Z_dep_XRR_with_cartoon.png){: .align-center}{:style="border: 0px solid black; padding: 0px"}{:height="50%" width="50%"}
+
 * Isotherm
 * X-ray reflectivity
 * ICP-MS data -> Extraction
