@@ -29,7 +29,7 @@ and allow us to deal with more computer-friendly equation:
 
 $$ \frac{R(Q_{z})} {R_{F} (Q_{z})} = \left| \sum_{i=0}^{N} \frac{\sigma_{i}-\sigma_{i+1}}{\sigma_{\infty}} e^{-iQ_{z}d_{i}} e^{-Q_{z}^{2} \frac{\sigma_{i+1}^{2}}{2}} \right|^{2} $$
 
-By minimizing the residual (chi-square) between the calculated \\({R(Q_{z})}/{R_{F} (Q_{z})}\\) and collected reflectivity, the thickness, electron density, and roughness of each slab are determined.
+By minimizing the residual (chi-square) between the collected and the formulated reflectivity, the thickness, electron density, and roughness of each slab are determined.
 
 * Isotherm
 * X-ray reflectivity
