@@ -1,6 +1,6 @@
 ---
 title: "Data Analysis Method"
-layout: splash
+layout: archive
 permalink: /analysis/
 ---
 
