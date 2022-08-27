@@ -10,9 +10,9 @@ toc_sticky: true
 
 **A lot of data analysis and mathematical formulations are done during research. This page showcases how I did them in detail.**
 
-# X-ray Reflectivity Analysis
+# X-ray Experiments Analysis
 
-## Mathematical Formulation
+## Mathematical Formulation: X-ray Reflectivity
 
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
 The specular reflectivity intensity profile as a function of incident (=reflection) angle contains information about the electron density of the material along the z-axis (when surface is x-y plane).
@@ -31,7 +31,14 @@ $$ \frac{R(Q_{z})} {R_{F} (Q_{z})} = \left| \sum_{i=0}^{N} \frac{\sigma_{i}-\sig
 
 By minimizing the residual (chi-square) between the collected and the formulated reflectivity, the thickness, electron density, and roughness of each slab are determined.
 
-![image-center](../assets/images/Z_dep_XRR_with_cartoon.png){: .align-center}{:style="border: 0px solid black; padding: 0px"}{:height="50%" width="50%"}
+## Mathematical Formulation: X-ray Fluorescence Near Total Reflection (XFNTR)
+
+XFNTR enable us quantitative analysis of ions adsorbed to the surface. One of the fascinating features about fluorescence technique is that it provides ion-selective information: You can calculate the number density of a "Target Ion" from the mixture sample. X-ray optics near the critical angle is manipulated to assign "surface only" detection of the fluorescence signals.
+
+When a beam incident to a matter from the angle higher than the critical angle (\\(\theta > \theta_{c}\\)), the beam penetrate the surface and reach the bulk. When it is shed from the small angle (\\(\theta < \theta_{c}\\)), the beam no longer penetrates the matter but travel along the surface. This is menisfested by a significant difference in penetration depth before and after the critical angle.
+
+![image-center](../assets/images/Fresnel_Transmission.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="70%" width="70%"}
+
 
 * Isotherm
 * X-ray reflectivity
