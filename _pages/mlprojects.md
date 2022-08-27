@@ -4,7 +4,9 @@ title: "Machine Learning & Data Science Projects"
 permalink: /mlprojects/
 ---
 
-List of Machine Learning projects: Summary!
+**Work in progress**
+
+List of Machine Learning projects: Summary only.
 * Research related: ICP-MS data, X-ray reflectivity, isotherm
 * Climbing Qualification prediction
 * Image Quantizer: James Webb image
