@@ -35,7 +35,7 @@ By minimizing the residual (chi-square) between the collected and the formulated
 
 XFNTR enable us quantitative analysis of ions adsorbed to the surface. One of the fascinating features about fluorescence technique is that it provides ion-selective information: You can calculate the number density of a "Target Ion" from the mixture sample. X-ray optics near the critical angle is manipulated to assign "surface only" detection of the fluorescence signals.
 
-When a beam incident to a matter from the angle higher than the critical angle (\\(\theta > \theta_{c}\\)), the beam penetrate the surface and reach the bulk. When it is shed from the small angle (\\(\theta < \theta_{c}\\)), the beam no longer penetrates the matter but travel along the surface. This is menisfested by a significant difference in penetration depth before and after the critical angle.
+When a beam incident to a matter from the angle higher than the critical angle (\\(\theta > \theta_{c}\\)), the beam penetrate the surface and reach the bulk. When it is shed from the small angle (\\(\theta < \theta_{c}\\)), the beam no longer penetrates the matter but travel along the surface. This is menisfested by a significant difference in penetration depth before and after the critical angle. The beam intensity right at the surface of the matter is "Fresnel Transmission" which looks like below.
 
 ![image-center](../assets/images/Fresnel_Transmission.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="70%" width="70%"}
 
