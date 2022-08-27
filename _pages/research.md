@@ -16,8 +16,6 @@ I have been researching the adsorption of Lanthanide elements to a charged extra
 
 ## Electrostatic Origin of Lanthanide Adsorption to a Monolayer
 
-![image-right](../assets/images/ODPA.png){: .align-right}{:style="border: 0px solid black; padding: 0px"}{:height="40%" width="40%"}
-
 * Ubiquitous rule in lanthanide extraction: Heavier elements extracted better than the Lighter ones
 * Step-wise trend of ion adsorption to a charged floating monolayer: Explained with electrostatic interaction
 * Selective adsorption of heavier lanthanide is observed with the mixture solution
