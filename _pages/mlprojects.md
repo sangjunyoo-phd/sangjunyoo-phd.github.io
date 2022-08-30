@@ -12,6 +12,12 @@ List of Machine Learning projects: Summary only.
 * S&P 500 index predictor with LSTM
 * BCG Virtual program
 
+# Image Quantizer: Personalized James Web Image
+![image-right](../assets/images/K_Means_10clusters.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
+* James Web Telescope published new pictures. I want to have a personalized version of them.
+* Used K-Means Clustering method to Quantize the image
+* Initialize the number of cluster using an Elbow Method
+
 # BCG Virtual Experience Program: Data Science and Advanced Analytics
 * Participated in BCG's open access virtual experience program with Forage: Business-oriented application of ML algorithm
 * A power company wanted to reduce the "Churning" clients by providing a 20% discount. My goal is to check if the discount strategy will be effective. If so, suggest what client this company should focus on.
