@@ -10,7 +10,6 @@ main:
     url: /analysis/
   - title: "Publications"
     url: /publications/
-sidebar-sample:
   - title: "Parent Page A"
     children:
       - title: "Child Page A1"
@@ -21,4 +20,3 @@ sidebar-sample:
         url: /child-page-a3/
       - title: "Child Page A4"
         url: /child-page-a4/
-        
