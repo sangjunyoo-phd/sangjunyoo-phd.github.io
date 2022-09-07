@@ -4,12 +4,6 @@ main:
     url: /mlprojects/
 #  - title: "Deep Learning"
 #    url: /deeplearning/
-  - title: "Research"
-    url: /research/
-  - title: "Data Analysis"
-    url: /analysis/
-  - title: "Publications"
-    url: /publications/
   - title: "Deep Learning"
     children:
       - title: "ANN and Backpropagation"
@@ -20,3 +14,10 @@ main:
         url: /child-page-a3/
       - title: "Child Page A4"
         url: /child-page-a4/
+  - title: "Research"
+    url: /research/
+  - title: "Data Analysis"
+    url: /analysis/
+  - title: "Publications"
+    url: /publications/
+
