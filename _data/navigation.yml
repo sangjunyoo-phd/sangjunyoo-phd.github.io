@@ -2,17 +2,8 @@
 main:
   - title: "ML&DS Projects"
     url: /mlprojects/
-#  - title: "Deep Learning"
-#    url: /deeplearning/
   - title: "Deep Learning"
-    children:
-      - title: "ANN and Backpropagation"
-        url: /ann_backpropagation/
-      - title: "RNN and its limit"
-        url: /rnn/
-      - title: "LSTM and S&P 500 index"
-        url: /lstmsnp500/
-      
+    url: /deeplearning/
   - title: "Research"
     url: /research/
   - title: "Data Analysis"
