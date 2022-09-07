@@ -2,18 +2,18 @@
 main:
   - title: "ML&DS Projects"
     url: /mlprojects/
-  - title: "Deep Learning"
-    url: /deeplearning/
+#  - title: "Deep Learning"
+#    url: /deeplearning/
   - title: "Research"
     url: /research/
   - title: "Data Analysis"
     url: /analysis/
   - title: "Publications"
     url: /publications/
-  - title: "Parent Page A"
+  - title: "Deep Learning"
     children:
-      - title: "Child Page A1"
-        url: /child-page-a1/
+      - title: "ANN and Backpropagation"
+        url: /ann_backpropagation/
       - title: "Child Page A2"
         url: /child-page-a2/
       - title: "Child Page A3"
