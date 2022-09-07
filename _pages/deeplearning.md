@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning"
-#layout: splash
+layout: posts
 permalink: /deeplearning/
 ---
 
