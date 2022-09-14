@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning & Data Science Projects"
-layout: archive
+#layout: archive
 permalink: /mlprojects/
 ---
 
