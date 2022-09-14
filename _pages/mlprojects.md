@@ -4,13 +4,11 @@ layout: archive
 permalink: /mlprojects/
 ---
 
-**Work in progress**
+# K-Means Clustering from Scratch
 
-List of Machine Learning projects: Summary only.
-* Climbing Qualification prediction
-* Image Quantizer: James Webb image
-* S&P 500 index predictor with LSTM
-* BCG Virtual program
+![image-left](../assets/images/K-Means-OOP.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
+* Developed python module that performs K-means Clustering from scratch (only using numpy and pyplot)
+* Familiarized myself with Object-Oriented-Programming
 
 # Image Quantizer: Personalized James Web Image
 ![image-right](../assets/images/K_Means_10clusters.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
