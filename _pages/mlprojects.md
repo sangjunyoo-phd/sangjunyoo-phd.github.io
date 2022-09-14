@@ -4,7 +4,7 @@ title: "Machine Learning & Data Science Projects"
 permalink: /mlprojects/
 ---
 
-# K-Means Clustering from Scratch
+# Object-Oriented-Programming: K-Means Clustering from Scratch
 ![image-left](../assets/images/K-Means-OOP.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
 * Developed python module that performs K-means Clustering from scratch (only using numpy and pyplot)
 * Familiarized myself with Object-Oriented-Programming
