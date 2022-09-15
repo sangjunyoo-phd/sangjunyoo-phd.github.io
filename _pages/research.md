@@ -11,9 +11,8 @@ feature_row1:
   - image_path: /assets/images/exp_setup.png
     alt: "placeholder image 1"
     title: "Electrostatic Origin of Lanthanide Adsorption to a Charged Surfactant Monolayer"
-    excerpt: 'There is a ubiquitous rule in lanthanide (Ln) extraction: **Heavier elements extracted better than the Lighter ones**. Although it is widely known empirical knowledge, there is not so many studies to understand this phenomena in nano-scale. **I used synchrotron-sourced X-rays to characterize the adsorption of Er (heavier Ln) and Nd (lighter Ln) to a negativel charged monolayer**.
-    <br/>
-    As the bulk ion concentration goes up, a step-wise trend of ion adsorption (no adsorption to fully saturated) was observed by X-ray scattering method. A selective adsoprtion of Er over Nd was also measured by X-ray fluorescence measurement. Collaboration with simulation research group, this step-wise trend is explained by electrostatic interaction between ions and charged headgroup of the monolayer'
+    excerpt: 'There is a ubiquitous rule in lanthanide (Ln) extraction: **Heavier elements extracted better than the Lighter ones**. Although it is widely known empirical knowledge, there are not so many studies to understand this phenomenon on a nano-scale. **I used synchrotron-sourced X-rays to characterize the adsorption of Er (heavier Ln) and Nd (lighter Ln) to a negatively charged monolayer**.<br/>
+    As the bulk ion concentration goes up, a stepwise trend of ion adsorption (no adsorption to fully saturated) was observed by the X-ray scattering method. Selective adsorption of Er over Nd was also measured by X-ray fluorescence measurement. In collaboration with a simulation research group, this stepwise trend is explained by electrostatic interaction between ions and charged headgroup of the monolayer'
     url: "https://doi.org/10.1103/PhysRevLett.122.058001"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -22,13 +21,12 @@ feature_row2:
   - image_path: /assets/images/Abstract_Figure.png
     alt: "placeholder image 2"
     title: "Spontaneous & Ion-Specific Complexation of Heavier Lanthanide with Extractant at the Air-Water Interface"
-    excerpt: 'Extractant molecules form monolayers at the air-water and liquid-liquid interface
-* It is still true when there is a light lanthanide element (an atomic number less than 65) in the solution
-* However, with heavier lanthanide elements (Z>65), a characteristic bilayer structure was found with X-ray scattering
-* The easily-detachable nature of the ion-specific complex structure can be beneficial to the selective extraction of heavier lanthanide elements'
-    url: "#test-link"
+    excerpt: 'Extractant molecules at the interface are believed to form a monolayer structure during the solvent extraction process. However, recent synchrotron X-ray studies have revealed that surfactants form an inverted bilayer structure with one of the heavier lanthanide elements (Er). Since it has a hydrophobic surface, it is believed to be beneficial for better extraction. (transferring ions from water to oil)<br/>
+    I discovered the ion-selective nature of this interfacial structure: **The bilayer structure is only formed when there are heavier lanthanide elements** evidenced by X-ray scattering, while lighter elements still form monolayers. X-ray fluorescence also revealed this structure doubled the number of adsorbed ions to the surface which is not only beneficial for a better extraction but also  the preferential extraction of the heavier lanthanides.'
+    url: "https://doi.org/10.1021/acsami.1c24008"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
 feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
