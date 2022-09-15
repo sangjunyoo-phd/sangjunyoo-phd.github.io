@@ -15,7 +15,7 @@ toc_sticky: true
 # 1. X-ray Experiments Analysis
 
 ## 1.1. X-ray Scattering Image Processing
-![image-center](../assets/images/exp_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="50%" width="50%"}
+![image-center](../assets/images/exp_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
 ** X-ray reflectivity experiment setup ** <br/>
 
 The X-ray signal reflected from a surface contains valuable information about the material's composition. X-ray area detector is positioned accordingly to the incident angle to optimally collect signals from the reflected X-ray beam. Image processing should be preceded to properly analyze the X-ray reflectivity data.
