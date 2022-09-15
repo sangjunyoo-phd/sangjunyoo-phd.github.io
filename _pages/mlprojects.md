@@ -27,6 +27,7 @@ permalink: /mlprojects/
 * Instead, I found clients with high energy consumption are less likely to quit the service. Suggested to focus on providing promotion to new customers with high energy consumption.   
 
 # IFSC Climbing Worldcup Qualification Predictor
+![image-left](../assets/images/IFSC_Climbing_World_Cup_Series_logo.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
 * Exploratory projects to be familiarized with classification problems including EDA, Feature Engineering, Modeling, and evaluation
 * Make a model that predicts if a player will pass the qualification when his/her score is provided with a Machine Learning algorithm
 * Logistic Regression, Support Vector classifier, and Random Forest model were deployed
