@@ -11,7 +11,9 @@ Understanding the transferring mechanism of metallic ions through the water surf
 I have been researching the adsorption of Lanthanide elements to a charged extractant Langmuir monolayer at the air-water interface on the molecular scale with synchrotron-sourced X-rays."
 
 feature_row1:
-  - title: "Electrostatic Origin of Lanthanide Adsorption to a Monolayer"
+  - image_path: /assets/images/Abstract.png
+    alt: "placeholder image 2"
+    title: "Electrostatic Origin of Lanthanide Adsorption to a Monolayer"
     excerpt: '* Ubiquitous rule in lanthanide extraction: Heavier elements extracted better than the Lighter ones
     * Step-wise trend of ion adsorption (no adsorption to fully saturated) to a charged floating monolayer as bulk concentration goes up: Explained with electrostatic interaction
     * Selective adsorption of heavier lanthanide is observed with the mixture solution'
