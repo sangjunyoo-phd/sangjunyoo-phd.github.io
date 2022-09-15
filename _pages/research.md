@@ -6,7 +6,7 @@ header:
   overlay_color: "#000"
 excerpt: "Solvent Extraction, a mechanism that transfers ions from water to oil with the assistance of amphiphilic molecules (extractant), is a widely used method to retrieve and separate precious lanthanide elements from wastewater.
 However, lack of selectivity leads to hundreds of cycles of solvent extraction to achieve industry-relevant purity which makes the process energy-intensive and generates huge environmental pollutants.
-
+<br/>
 Understanding the transferring mechanism of metallic ions through the water surface is essential to optimizing and improving the selectivity of the separation process.
 I have been researching the adsorption of Lanthanide elements to a charged extractant Langmuir monolayer at the air-water interface on the molecular scale with synchrotron-sourced X-rays."
 
