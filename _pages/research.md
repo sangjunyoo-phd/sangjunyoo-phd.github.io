@@ -14,9 +14,9 @@ feature_row1:
   - image_path: /assets/images/exp_setup.png
     alt: "placeholder image 2"
     title: "Electrostatic Origin of Lanthanide Adsorption to a Monolayer"
-    excerpt: '* Ubiquitous rule in lanthanide extraction: Heavier elements extracted better than the Lighter ones<br/>
-    * Step-wise trend of ion adsorption (no adsorption to fully saturated) to a charged floating monolayer as bulk concentration goes up: Explained with electrostatic interaction<br/>
-    * Selective adsorption of heavier lanthanide is observed with the mixture solution'
+    excerpt: '* Ubiquitous rule in lanthanide extraction: Heavier elements extracted better than the Lighter ones'
+    '* Step-wise trend of ion adsorption (no adsorption to fully saturated) to a charged floating monolayer as bulk concentration goes up: Explained with electrostatic interaction'
+    '* Selective adsorption of heavier lanthanide is observed with the mixture solution'
     url: "https://github.com/sangjunyoo-phd/S-P-500-Index-Prediction/blob/main/SP500_predictor.ipynb"
     btn_label: "Read More"
     btn_class: "btn--primary"
