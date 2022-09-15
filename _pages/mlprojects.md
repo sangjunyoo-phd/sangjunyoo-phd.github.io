@@ -5,12 +5,13 @@ permalink: /mlprojects/
 ---
 
 # Object-Oriented-Programming: K-Means Clustering from Scratch
-![image-left](../assets/images/K-Means-OOP.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
-* Developed python module that performs K-means Clustering from scratch (only using numpy and pyplot)
+![image-left](../assets/images/K-Means-OOP.png){:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
+* Developed a python module that performs K-means Clustering from scratch (only using numpy and pyplot)
+* Converted mathematical formulation to python code
 * Familiarized myself with Object-Oriented-Programming
 
 # Image Quantizer: Personalized James Web Image
-![image-right](../assets/images/K_Means_10clusters.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
+![image-right](../assets/images/K_Means_10clusters.png){:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
 * James Web Telescope published new pictures. I want to have a personalized version of them.
 * Used K-Means Clustering method to Quantize the image
 * Initialize the number of cluster using an Elbow Method
