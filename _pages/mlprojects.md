@@ -14,7 +14,8 @@ permalink: /mlprojects/
 ![image-right](../assets/images/K_Means_10clusters.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
 * James Web Telescope published new pictures. I want to have a personalized version of them.
 * Used K-Means Clustering method to Quantize the image
-* Initialize the number of cluster using an Elbow Method   
+* Initialize the number of cluster using an Elbow Method
+* Created a fancy desktop background image!   
 
 # BCG Virtual Experience Program: Data Science and Advanced Analytics
 * Participated in BCG's open access virtual experience program with Forage: Business-oriented application of ML algorithm
