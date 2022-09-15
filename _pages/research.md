@@ -1,8 +1,58 @@
 ---
-title: "Research"
-layout: archive
+title: "Retrieving precious Lanthanide Ions Selectively from Water"
+layout: splash
 permalink: /research/
+header:
+  overlay_color: "#000"
+excerpt: "Solvent Extraction, a mechanism that transfers ions from water to oil with the assistance of amphiphilic molecules (extractant), is a widely used method to retrieve and separate precious lanthanide elements from wastewater.
+However, lack of selectivity leads to hundreds of cycles of solvent extraction to achieve industry-relevant purity which makes the process energy-intensive and generates huge environmental pollutants.
+
+Understanding the transferring mechanism of metallic ions through the water surface is essential to optimizing and improving the selectivity of the separation process.
+I have been researching the adsorption of Lanthanide elements to a charged extractant Langmuir monolayer at the air-water interface on the molecular scale with synchrotron-sourced X-rays."
+
+feature_row1:
+  - title: "Electrostatic Origin of Lanthanide Adsorption to a Monolayer"
+    excerpt: '* Ubiquitous rule in lanthanide extraction: Heavier elements extracted better than the Lighter ones
+    * Step-wise trend of ion adsorption (no adsorption to fully saturated) to a charged floating monolayer as bulk concentration goes up: Explained with electrostatic interaction
+    * Selective adsorption of heavier lanthanide is observed with the mixture solution'
+    url: "https://github.com/sangjunyoo-phd/S-P-500-Index-Prediction/blob/main/SP500_predictor.ipynb"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Right Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Center Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="feature_row" type="left" %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="center" %}
 
 # Retrieving precious Lanthanide Ions Selectively from Water
 
