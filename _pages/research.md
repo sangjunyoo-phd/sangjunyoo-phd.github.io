@@ -36,15 +36,6 @@ feature_row3:
     url: "https://doi.org/10.1103/PhysRevLett.122.058001"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -54,8 +45,6 @@ feature_row4:
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
 
 # Retrieving precious Lanthanide Ions Selectively from Water
 
