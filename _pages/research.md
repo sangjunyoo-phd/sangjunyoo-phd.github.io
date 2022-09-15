@@ -4,15 +4,12 @@ layout: splash
 permalink: /research/
 header:
   overlay_color: "#000"
-excerpt: "Solvent Extraction, a mechanism that transfers ions from water to oil with the assistance of amphiphilic molecules (extractant), is a widely used method to retrieve and separate precious lanthanide elements from wastewater.
-However, lack of selectivity leads to hundreds of cycles of solvent extraction to achieve industry-relevant purity which makes the process energy-intensive and generates huge environmental pollutants.
-<br/>
-Understanding the transferring mechanism of metallic ions through the water surface is essential to optimizing and improving the selectivity of the separation process.
-I have been researching the adsorption of Lanthanide elements to a charged extractant Langmuir monolayer at the air-water interface on the molecular scale with synchrotron-sourced X-rays."
+excerpt: "Solvent Extraction, a mechanism that transfers ions from water to oil with the assistance of amphiphilic molecules (extractant), is a widely used method to retrieve and separate precious lanthanide elements from wastewater. However, lack of selectivity leads to hundreds of cycles of solvent extraction to achieve industry-relevant purity which makes the process energy-intensive and generates huge environmental pollutants.<br/>
+Understanding the transferring mechanism of metallic ions through the water surface is essential to optimizing and improving the selectivity of the separation process. I have been researching the adsorption of Lanthanide elements to a charged extractant Langmuir monolayer at the air-water interface on the molecular scale with synchrotron-sourced X-rays."
 
 feature_row1:
   - image_path: /assets/images/exp_setup.png
-    alt: "placeholder image 2"
+    alt: "placeholder image 1"
     title: "Electrostatic Origin of Lanthanide Adsorption to a Charged Surfactant Monolayer"
     excerpt: 'There is a ubiquitous rule in lanthanide (Ln) extraction: **Heavier elements extracted better than the Lighter ones**. Although it is widely known empirical knowledge, there is not so many studies to understand this phenomena in nano-scale. **I used synchrotron-sourced X-rays to characterize the adsorption of Er (heavier Ln) and Nd (lighter Ln) to a negativel charged monolayer**.
     <br/>
@@ -20,11 +17,15 @@ feature_row1:
     url: "https://doi.org/10.1103/PhysRevLett.122.058001"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/Abstract_Figure.png
     alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    title: "Spontaneous & Ion-Specific Complexation of Heavier Lanthanide with Extractant at the Air-Water Interface"
+    excerpt: 'Extractant molecules form monolayers at the air-water and liquid-liquid interface
+* It is still true when there is a light lanthanide element (an atomic number less than 65) in the solution
+* However, with heavier lanthanide elements (Z>65), a characteristic bilayer structure was found with X-ray scattering
+* The easily-detachable nature of the ion-specific complex structure can be beneficial to the selective extraction of heavier lanthanide elements'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
