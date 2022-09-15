@@ -4,9 +4,9 @@ main:
     url: /mlprojects/
   - title: "Deep Learning"
     url: /deeplearning/
-  - title: "Research"
+  - title: "Research Projects"
     url: /research/
-  - title: "Data Analysis"
+  - title: "Research Data Analysis"
     url: /analysis/
   - title: "Publications"
     url: /publications/
