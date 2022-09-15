@@ -7,8 +7,6 @@ toc_sticky: true
 
 **Work in progress**
 
-**A lot of data analysis and mathematical formulations are done during research. This page showcases how I did them in detail.**
-
 # 1. X-ray Experiments Analysis
 
 ## 1.1. X-ray Scattering Image Processing
@@ -44,8 +42,23 @@ When a beam meets the surface of matters, the incident beam is either reflected 
 
 ![image-center](../assets/images/Fresnel_Transmission.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="70%" width="70%"}
 
-* Isotherm
-* X-ray reflectivity
-* ICP-MS data -> Extraction
-* Kinetics of extraction
+# 2. Kinetic Model of Solvent Extraction (ICP-MS)
 
+## 2.1. Order of Chemical Reaction
+What is chemical reaction order and how to determine.
+
+## 2.2. Data Engineering: ICP-MS signal to Extraction Performance
+How did I change ICP-MS data to Extraction curve.   
+Include code
+
+## 2.3. Non-Linear Regression and Its Interpretation
+Exponentials and their interpretation
+
+# 3. Isotherm of Langmuir Monolayer
+Brief description of Langmuir monolayer
+
+## 3.1. Trouble Shooting: Langmuir Trough and the Barrier Position
+Malfunctioning barrier position sensor.
+
+## 3.2. Software Approach Problem Solving
+Include code
