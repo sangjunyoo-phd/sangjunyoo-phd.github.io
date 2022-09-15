@@ -11,12 +11,14 @@ feature_row:
     alt: "placeholder image 2"
     title: "Predict the Open and Close prices of the S&P 500 Index with LSTM"
     excerpt: 'cool stuff!'
-    url: "https://sangjunyoo-phd.github.io/deeplearning/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-    url: "httpls://https://github.com/sangjunyoo-phd/S-P-500-Index-Prediction/blob/main/SP500_predictor.ipynb"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    [Read More](#https://sangjunyoo-phd.github.io/deeplearning/){: .btn}
+    [Code]("https://github.com/sangjunyoo-phd/S-P-500-Index-Prediction/blob/main/SP500_predictor.ipynb"){: .btn}
+    #url: "https://sangjunyoo-phd.github.io/deeplearning/"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
+    #url: "https://github.com/sangjunyoo-phd/S-P-500-Index-Prediction/blob/main/SP500_predictor.ipynb"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
