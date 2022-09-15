@@ -5,11 +5,11 @@ permalink: /mlprojects/
 ---
 
 # Object-Oriented-Programming: K-Means Clustering from Scratch
-<--![image-right](../assets/images/K-Means-OOP.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
+![image-right](../assets/images/K-Means-OOP.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
 * Developed a python module that performs K-means Clustering from scratch (only using numpy and pyplot)
 * Converted mathematical formulation to python code
 * Familiarized myself with Object-Oriented-Programming
-<br/><br/><br/>-->
+<br/><br/><br/><br/>
 
 # Image Quantizer: Personalized James Web Image
 ![image-left](../assets/images/K_Means_10clusters.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="40%" width="40%"}
@@ -17,6 +17,7 @@ permalink: /mlprojects/
 * Used K-Means Clustering method to Quantize the image
 * Initialize the number of cluster using an Elbow Method
 * Created a fancy desktop background image!   
+<br/><br/>
 
 # BCG Virtual Experience Program: Data Science and Advanced Analytics
 * Participated in BCG's open access virtual experience program with Forage: Business-oriented application of ML algorithm
