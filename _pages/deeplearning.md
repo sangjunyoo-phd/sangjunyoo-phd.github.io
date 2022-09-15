@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning"
-#layout: posts
+layout: archive
 permalink: /deeplearning/
 toc: true
 ---
