@@ -1,5 +1,5 @@
 ---
-title: "Data Analysis Method"
+title: "Data Analysis Method for Research Projects"
 permalink: /analysis/
 toc: true
 toc_sticky: true
