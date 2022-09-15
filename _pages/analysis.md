@@ -14,7 +14,13 @@ toc_sticky: true
 
 # 1. X-ray Experiments Analysis
 
-## 1.1. Mathematical Formulation: X-ray Reflectivity
+## 1.1. X-ray Scattering Image Processing
+![image-center](../assets/images/exp_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="50%" width="50%"}
+** X-ray reflectivity experiment setup ** <br/>
+
+The X-ray signal reflected from a surface contains valuable information about the material's composition. X-ray area detector is positioned accordingly to the incident angle to optimally collect signals from the reflected X-ray beam. Image processing should be preceded to properly analyze the X-ray reflectivity data.
+
+## 1.2. Mathematical Formulation: X-ray Reflectivity
 
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
 The specular reflectivity intensity profile as a function of incident (=reflection) angle contains information about the electron density of the material along the z-axis (when a surface is an XY plane).
@@ -33,7 +39,7 @@ $$ \frac{R(Q_{z})} {R_{F} (Q_{z})} = \left| \sum_{i=0}^{N} \frac{\rho_{i}-\rho_{
 
 By minimizing the residual (chi-square) between the collected and the formulated reflectivity, the thickness, electron density, and roughness of each slab are determined.
 
-## 1.2. Mathematical Formulation: X-ray Fluorescence Near Total Reflection (XFNTR)
+## 1.3. Mathematical Formulation: X-ray Fluorescence Near Total Reflection (XFNTR)
 
 XFNTR enables quantitative analysis of ions adsorbed to the surface. One of the fascinating features of the fluorescence technique is that it provides ion-selective information: You can calculate the number density of a "Target Ion" from the mixture sample. X-ray optics near the critical angle is manipulated to assign "surface only" detection of the fluorescence signals.
 
