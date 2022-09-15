@@ -12,7 +12,9 @@ feature_row1:
     alt: "placeholder image 3"
     title: "The Role of an Interfacial Bilayer Structure in the Selectivity in the Solvent Extraction"
     excerpt: 'My recent X-ray studies have found ion-specific complexation of extractant and heavier lanthanides. This interfacial bilayer structure and its ion-selective nature are believed to be beneficial for better extraction and selective extraction of heavier lanthanides than the lighter ones. (See below study) To investigate this possibility, I performed model extractions with Er (heavier & bilayer) and Nd (lighter & monolayer). The extraction results are evaluated with Inductively Coupled Plasma Mass Spectrometry (ICP-MS).<br/>
-    The study revealed the bilayer structure results better and faster extraction as well as selective extraction. I also found that lower extractant concentration leads to a better separation ratio of Er/Nd, which I postulated a less saturated interface (low extractant concentration) hinders the bilayer (Er) and monolayer (Nd) domains extracted together.'
+    The study revealed **the bilayer structure results in better and faster extraction as well as selective extraction**. I also found that lower extractant concentration leads to a better separation ratio of Er/Nd, which I postulated as a less saturated interface (low extractant concentration) hinders the bilayer (Er) and monolayer (Nd) domains extracted together.'
+
+
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
