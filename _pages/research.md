@@ -13,11 +13,11 @@ I have been researching the adsorption of Lanthanide elements to a charged extra
 feature_row1:
   - image_path: /assets/images/exp_setup.png
     alt: "placeholder image 2"
-    title: "Electrostatic Origin of Lanthanide Adsorption to a Monolayer"
-    excerpt: '* Ubiquitous rule in lanthanide extraction: Heavier elements extracted better than the Lighter ones'
-    '* Step-wise trend of ion adsorption (no adsorption to fully saturated) to a charged floating monolayer as bulk concentration goes up: Explained with electrostatic interaction'
-    '* Selective adsorption of heavier lanthanide is observed with the mixture solution'
-    url: "https://github.com/sangjunyoo-phd/S-P-500-Index-Prediction/blob/main/SP500_predictor.ipynb"
+    title: "Electrostatic Origin of Lanthanide Adsorption to a Charged Surfactant Monolayer"
+    excerpt: 'There is a ubiquitous rule in lanthanide (Ln) extraction: Heavier elements extracted better than the Lighter ones. Although it is widely known empirical knowledge, there is not so many studies to understand this phenomena in nano-scale. I used synchrotron-sourced X-rays to characterize the adsorption of Er (heavier Ln) and Nd (lighter Ln) to a negativel charged monolayer.
+    <br/>
+    As the bulk ion concentration goes up, a step-wise trend of ion adsorption (no adsorption to fully saturated) was observed. Collaboration with simulation research group, this step-wise trend is explained by electrostatic interaction between ions and charged headgroup of the monolayer'
+    url: "https://doi.org/10.1103/PhysRevLett.122.058001"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
