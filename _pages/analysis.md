@@ -12,9 +12,9 @@ toc_sticky: true
 
 **A lot of data analysis and mathematical formulations are done during research. This page showcases how I did them in detail.**
 
-# X-ray Experiments Analysis
+# 1. X-ray Experiments Analysis
 
-## Mathematical Formulation: X-ray Reflectivity
+## 1.1. Mathematical Formulation: X-ray Reflectivity
 
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
 The specular reflectivity intensity profile as a function of incident (=reflection) angle contains information about the electron density of the material along the z-axis (when a surface is an XY plane).
@@ -33,11 +33,11 @@ $$ \frac{R(Q_{z})} {R_{F} (Q_{z})} = \left| \sum_{i=0}^{N} \frac{\rho_{i}-\rho_{
 
 By minimizing the residual (chi-square) between the collected and the formulated reflectivity, the thickness, electron density, and roughness of each slab are determined.
 
-## Mathematical Formulation: X-ray Fluorescence Near Total Reflection (XFNTR)
+## 1.2. Mathematical Formulation: X-ray Fluorescence Near Total Reflection (XFNTR)
 
 XFNTR enables quantitative analysis of ions adsorbed to the surface. One of the fascinating features of the fluorescence technique is that it provides ion-selective information: You can calculate the number density of a "Target Ion" from the mixture sample. X-ray optics near the critical angle is manipulated to assign "surface only" detection of the fluorescence signals.
 
-When a beam incident to a matter from an angle higher than the critical angle (\\(\theta > \theta_{c}\\)), the beam penetrates the surface and reaches the bulk. When it is shed from the small angle (\\(\theta < \theta_{c}\\)), the beam no longer penetrates the matter but travels along the surface. This is manifested by a significant difference in penetration depth before and after the critical angle. (right) The beam intensity right at the surface of the matter is "Fresnel Transmission". (left)
+When a beam meets the surface of matters, the incident beam is either reflected or transmitted (or refracted). The transmitted portion of the incident light can interact with matters and allow us to characterize the matter. The transmission rate is sensitive to the angle of incidence. (See the graph below) From an angle higher than the critical angle (\\(\theta > \theta_{c}\\)), the beam penetrates the surface and reaches the bulk. The distance that the beam penetrates the matter is called "penetration depth". When the surface is shed from the small angle (\\(\theta < \theta_{c}\\)), the beam no longer penetrates the matter (only a few nano-meters) but travels along the surface. This is manifested by a significant difference in penetration depth before and after the critical angle.
 
 ![image-center](../assets/images/Fresnel_Transmission.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="70%" width="70%"}
 
