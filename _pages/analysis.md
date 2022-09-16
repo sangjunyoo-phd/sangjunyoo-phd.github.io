@@ -11,7 +11,7 @@ toc_sticky: true
 
 ## 1.1. X-ray Scattering Image Processing
 ![image-center](../assets/images/exp_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
-__X-ray reflectivity experiment setup. The blue box represents the Area Detector.__ <br/>
+__X-ray experiment setup. The blue box is an area detector that senses X-ray scattering signals and the gray box is a vortex meter that detects fluorescence signals.__ <br/>
 
 The X-ray signal reflected from a surface contains valuable information about the material's composition. X-ray area detector is positioned accordingly to the incident angle to optimally collect signals from the reflected X-ray beam. Image processing should be preceded to properly analyze the X-ray reflectivity data.
 
@@ -51,7 +51,13 @@ $$\begin{align}\frac{I}{I_{0}} = & \frac{C}{A_{ion}} \int T(\alpha) e^{-\mu_{0}x
 & + I_{bg}/I_{0}
 \end{align}$$
 
-There is an assumption regarding the ion distribution near the surface. The ions are distributed uniformly in the bulk (with concentration of \\(n_{ion}\\)) and the adsorbed ions are located very close to the surface (depth negligilbe compared to the penetration depth, \\(\Lambda\\), with \\(A_{ion}\\) surface area per ion). 
+There is an assumption regarding the ion distribution near the surface. The ions are distributed uniformly in the bulk (with concentration of \\(n_{ion}\\)) and the adsorbed ions are located very close to the surface (depth negligilbe compared to the penetration depth, \\(\Lambda\\), with \\(A_{ion}\\) surface area per ion).
+
+The first term calculates the signal contributed from the "surface" ions. Since the depth of the ions are negligible to the penetration depth, we only need to consider the transmitted intensity. The exponential term \\(e^{-\mu_{0}x'}\\) calculates the attenuation of the beam (the intensity loss when it travel through a non-vacuum media). The fluorescence signal from each point is then integrated over the area overlapped by detection region and the footprint of the incident beam.
+
+The second term is the contribution of the ions in the bulk. Since the depth of the ions is comparable to the penetration depth, an exponential of \\(\Lambda\\) times depth is multiplied to the transmission. The attenuation is considered again and integrated over the same region as previous.
+
+The last term is dedicated to the background noise signal. It has no significant physical meaning, but allow us to optimize further during the parameter estimation process (\\(A_{ion}\\)).
 
 # 2. Kinetic Model of Solvent Extraction (ICP-MS)
 
