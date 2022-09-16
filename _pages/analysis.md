@@ -15,7 +15,7 @@ __X-ray experiment setup. The blue box is an area detector that senses X-ray sca
 
 ## 1.1. X-ray Scattering
 ![image-left](../assets/images/reflectivity_good_example.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="60%" width="40%"}
-![image-left](../assets/images/reflectivity_bad_example.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="60%" width="40%"}
+
 The X-ray signal reflected from a surface contains valuable information about the material's composition. X-ray area detector is positioned accordingly to the incident angle to optimally collect signals from the reflected X-ray beam. Image processing should be preceded to properly analyze the X-ray reflectivity data.
 
 ### 1.1.1 Image Processing
