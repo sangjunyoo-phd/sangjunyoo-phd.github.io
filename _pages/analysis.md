@@ -38,9 +38,18 @@ By minimizing the residual (chi-square) between the collected and the formulated
 
 XFNTR enables quantitative analysis of ions adsorbed to the surface. One of the fascinating features of the fluorescence technique is that it provides ion-selective information: You can calculate the number density of a "Target Ion" from the mixture sample. X-ray optics near the critical angle is manipulated to assign "surface only" detection of the fluorescence signals.
 
-When a beam meets the surface of matters, the incident beam is either reflected or transmitted (or refracted). The transmitted portion of the incident light can interact with matters and allow us to characterize the matter. The transmission (\\(T(\theta)\\)) is sensitive to the angle of incidence. (See the graph below) From an angle higher than the critical angle (\\(\theta > \theta_{c}\\)), the beam penetrates the surface and reaches the bulk. The distance that the beam penetrates the matter is called "penetration depth". When the surface is shed from the small angle (\\(\theta < \theta_{c}\\)), the beam no longer penetrates the matter (only a few nano-meters) but travels along the surface. This is manifested by a significant difference in penetration depth before and after the critical angle.
+When a beam meets the surface of matters, the incident beam is either reflected or transmitted (or refracted). The transmitted portion of the incident light can interact with matters and allow us to characterize the matter. The transmission (\\(T\\)) is sensitive to the angle of incidence. (See the graph below) From an angle higher than the critical angle (\\(\theta > \theta_{c}\\)), the beam penetrates the surface and reaches the bulk. The distance that the beam penetrates the matter is called "penetration depth (\\(\Lambda\\))". When the surface is shed from the small angle (\\(\theta < \theta_{c}\\)), the beam no longer penetrates the matter (only a few nano-meters) but travels along the surface. This is manifested by a significant difference in penetration depth before and after the critical angle.
 
 ![image-center](../assets/images/Fresnel_Transmission.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="70%" width="70%"}
+
+The fluorescence signal from an atom is linearly correlated with the beam intensity (by \\(C\\)) that reaches the location of the atom. Considering that the "surface-only" mode described above, it is reasonable to split the overall fluorescence signal intensity to **surface**, **bulk**, and background noise terms. When varaibles are defined as a picture below, the fluorescence signal intensity can be formulated as a following equation.
+
+![image-center](../assets/images/XFNTR_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="70%" width="70%"}
+
+$$\begin{align}\frac{I}{I_{0}} = & \frac{C}{A_{ion}} \integral T(\alpha) e^{-\mu_{0}x'}dx'\\
+& + C \cdot n_{ion} \integral \integral T(\alpha) e^{-|z|/\Lambda (\alpha)} e^{-\mu_{0}x'} dx'dz\\
+& + I_{bg}/I_{0}
+\end{align}$$
 
 # 2. Kinetic Model of Solvent Extraction (ICP-MS)
 
