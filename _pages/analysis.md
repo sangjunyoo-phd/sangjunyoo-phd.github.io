@@ -14,10 +14,14 @@ I mainly conduct two types of X-ray experiments: X-ray scattering (reflectivity)
 __X-ray experiment setup. The blue box is an area detector that senses X-ray scattering signals and the gray box is a vortex meter that detects fluorescence signals.__ <br/>
 
 ## 1.1. X-ray Scattering
+![image-left](../assets/images/reflectivity_good_example.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
+![image-left](../assets/images/reflectivity_bad_example.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
 The X-ray signal reflected from a surface contains valuable information about the material's composition. X-ray area detector is positioned accordingly to the incident angle to optimally collect signals from the reflected X-ray beam. Image processing should be preceded to properly analyze the X-ray reflectivity data.
 
 ### 1.1.1 Image Processing
+![image-center](../assets/images/exp_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
 
+X-ray scattering method collects the intensity of reflected beam at various angles. At each angle, the beam intensity is collected by area detector as an image. It is crucial to process this image and extract the intensity of the "Real Reflection".
 
 ## 1.1.2. Mathematical Formulation: X-ray Reflectivity
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
