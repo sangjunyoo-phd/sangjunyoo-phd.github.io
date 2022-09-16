@@ -8,30 +8,29 @@ toc_sticky: true
 **Work in progress**
 
 # 1. X-ray Experiments Analysis
-I mainly conduct two types of X-ray experiments: X-ray scattering (reflectivity) and X-ray Fluorescence Near Total Reflection (XFNTR). Each experiment requires extensive signal processing and analysis process to extract scientific meanings. This section is intended to showcase how I went through all those processes.
+I mainly conduct two types of X-ray experiments: X-ray scattering (reflectivity) and X-ray Fluorescence Near Total Reflection (XFNTR). Each experiment requires extensive signal processing and analysis procedures to extract scientific meanings. This section is intended to showcase how I went through all those processes.
 
 ![image-center](../assets/images/exp_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
 __X-ray experiment setup. The blue box is an area detector that senses X-ray scattering signals and the gray box is a vortex meter that detects fluorescence signals.__ <br/>
 
 ## 1.1. X-ray Scattering
-The X-ray signal reflected from a surface contains valuable information about the material's composition. X-ray area detector is positioned accordingly to the incident angle to optimally collect signals from the reflected X-ray beam. Image processing should be preceded to properly analyze the X-ray reflectivity data.
+X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal. The X-ray area detector is positioned accordingly to the incident angle to optimally collect signals from the reflected X-ray beam. Image processing should be preceded to properly analyze the X-ray reflectivity data.
 
 ### 1.1.1 Image Processing
-X-ray scattering method collects the intensity of reflected beam at various angles. At each angle, the beam intensity is collected by area detector as an image. It is crucial to process this image and extract the intensity of the "Real Reflection".
+The X-ray scattering method collects the intensity of the reflected beam at various angles. At each angle, the beam intensity is collected by the area detector as an image. It is crucial to process this image and extract the intensity of the "Real Reflection".
 
 ![image-center](../assets/images/reflectivity_good_example.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
 
-A typical scattering image is shown as above: The images look like above are collected from every designated angle. Since the size of the incident beam is regulated by slits and the position of the detector is finely controlled, the reflected beam should fall into a designated region (the center red square in this case). All signals in this region are summed up to represent the reflectivity signal. However, as you might notice, the actual reflectivity signal occupies only a small portion of the region of interest and it means it is very likely to contain a large amount of background noise as a relevant signal.
+A typical scattering image is shown as above: The images that look like the above are collected from every designated angle. Since the size of the incident beam is regulated by slits and the position of the detector is finely controlled, the reflected beam should fall into a designated region (the center red square in this case). All signals in this region are summed up to represent the reflectivity signal. However, as you might notice, the actual reflectivity signal occupies only a small portion of the region of interest and it means it is very likely to contain a large amount of background noise as a relevant signal.
 
-The background noise should be substracted from the signal. The two red squares on each side play a role here. The background noise is calculated from each box and averaged. This way, we can substract the noise from the middle box and obtain the "real" reflection signal. By repeating this procedure for all angle, we can have an intensity profile over various angle as below.
+The background noise should be subtracted from the signal. The two red squares on each side play a role here. The background noise is calculated from each box and averaged. This way, we can subtract the noise from the middlebox and obtain the "real" reflection signal. By repeating this procedure for all angles, we can have an intensity profile over various angles as below.
 
 ![image-center](../assets/images/reflectivity_example.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
 **Reflected Intensity Profile as a Function of Angle**
 
 
 ### 1.1.2. Mathematical Formulation: X-ray Reflectivity
-X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
-The specular reflectivity intensity profile as a function of incident (=reflection) angle contains information about the electron density of the material along the z-axis (when a surface is an XY plane).
+The specular reflectivity intensity profile as a function of incident (=reflection) angle (that we just obtained above) contains information about the electron density of the material along the z-axis (when a surface is an XY plane).
 
 $$ \frac{R(Q_{z})} {R_{F} (Q_{z})} = \left| \frac{1}{\rho_{\infty}} \int \frac{d \rho (z)}{dz} e^{i Q_{z}z} dz \right| ^{2} $$
 
@@ -50,15 +49,15 @@ By minimizing the residual (chi-square) between the collected and the formulated
 ## 1.2 X-ray Fluorescence Near Total Reflection (XFNTR)
 XFNTR enables quantitative analysis of ions adsorbed to the surface. One of the fascinating features of the fluorescence technique is that it provides ion-selective information: You can calculate the number density of a "Target Ion" from the mixture sample. X-ray optics near the critical angle is manipulated to assign "surface only" detection of the fluorescence signals.
 
-It uses unique optical property of X-rays: Total reflection. It basically allow us to investigate the "surface-only" of a material of interest.
+It uses a unique optical property of X-rays: Total reflection. It allows us to investigate the "surface-only" of a material of interest.
 
 ### 1.2.1. Incident Angle and "Surface-Only" mode of X-rays
-When a beam meets the surface of matters, the incident beam is either reflected or transmitted (or refracted). The transmitted portion of the incident light can interact with matters and allow us to characterize the matter. The transmission (\\(T\\)) is sensitive to the angle of incidence. (See the graph below) From an angle higher than the critical angle (\\(\theta > \theta_{c}\\)), the beam penetrates the surface and reaches the bulk. The distance that the beam penetrates the matter is called "penetration depth (\\(\Lambda\\))". When the surface is shed from the small angle (\\(\theta < \theta_{c}\\)), the beam no longer penetrates the matter (only a few nano-meters) but travels along the surface. This is manifested by a significant difference in penetration depth before and after the critical angle.
+When a beam meets the surface of matter, the incident beam is either reflected or transmitted (or refracted). The transmitted portion of the incident light can interact with matters and allow us to characterize the matter. The transmission (\\(T\\)) is sensitive to the angle of incidence. (See the graph below) From an angle higher than the critical angle (\\(\theta > \theta_{c}\\)), the beam penetrates the surface and reaches the bulk. The distance that the beam penetrates the matter is called "penetration depth (\\(\Lambda\\))". When the surface is shed from the small angle (\\(\theta < \theta_{c}\\)), the beam no longer penetrates the matter (only a few nanometers) but travels along the surface. This is manifested by a significant difference in penetration depth before and after the critical angle.
 
 ![image-center](../assets/images/Fresnel_Transmission.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="70%" width="70%"}
 
 ### 1.2.2. Mathematical Formulation of Fluorescence Signal Intensity
-The fluorescence signal from an atom is linearly correlated with the beam intensity (by \\(C\\)) that reaches the location of the atom. Considering that the "surface-only" mode described above, it is reasonable to split the overall fluorescence signal intensity to **surface**, **bulk**, and background noise terms. When varaibles are defined as a picture below, the fluorescence signal intensity can be formulated as a following equation.
+The fluorescence signal from an atom is linearly correlated with the beam intensity (by \\(C\\)) that reaches the location of the atom. Considering the "surface-only" mode described above, it is reasonable to split the overall fluorescence signal intensity into **surface**, **bulk**, and background noise terms. When variables are defined as a picture below, the fluorescence signal intensity can be formulated as the following equation.
 
 ![image-center](../assets/images/XFNTR_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="70%" width="70%"}
 
@@ -67,13 +66,13 @@ $$\begin{align}\frac{I}{I_{0}} = & \frac{C}{A_{ion}} \int T(\alpha) e^{-\mu_{0}x
 & + I_{bg}/I_{0}
 \end{align}$$
 
-There is an assumption regarding the ion distribution near the surface. The ions are distributed uniformly in the bulk (with concentration of \\(n_{ion}\\)) and the adsorbed ions are located very close to the surface (depth negligilbe compared to the penetration depth, \\(\Lambda\\), with \\(A_{ion}\\) surface area per ion).
+There is an assumption regarding the ion distribution near the surface. The ions are distributed uniformly in the bulk (with concentration of \\(n_{ion}\\)) and the adsorbed ions are located very close to the surface (depth negligible compared to the penetration depth, \\(\Lambda\\), with \\(A_{ion}\\) surface area per ion).
 
-The first term calculates the signal contributed from the "surface" ions. Since the depth of the ions are negligible to the penetration depth, we only need to consider the transmitted intensity. The exponential term \\(e^{-\mu_{0}x'}\\) calculates the attenuation of the beam (the intensity loss when it travel through a non-vacuum media). The fluorescence signal from each point is then integrated over the area overlapped by detection region and the footprint of the incident beam.
+The first term calculates the signal contributed by the "surface" ions. Since the depth of the ions is negligible to the penetration depth, we only need to consider the transmitted intensity. The exponential term \\(e^{-\mu_{0}x'}\\) calculates the attenuation of the beam (the intensity loss when it travels through a non-vacuum media). The fluorescence signal from each point is then integrated over the area overlapped by the detection region and the footprint of the incident beam.
 
-The second term is the contribution of the ions in the bulk. Since the depth of the ions is comparable to the penetration depth, an exponential of \\(\Lambda\\) times depth is multiplied to the transmission. The attenuation is considered again and integrated over the same region as previous.
+The second term is the contribution of the ions in the bulk. Since the depth of the ions is comparable to the penetration depth, an exponential of \\(\Lambda\\) times depth is multiplied by the transmission. The attenuation is considered again and integrated over the same region as the previous.
 
-The last term is dedicated to the background noise signal. It has no significant physical meaning, but allow us to optimize further during the parameter estimation process (\\(A_{ion}\\)).
+The last term is dedicated to the background noise signal. It has no significant physical meaning, but allows us to optimize further during the parameter estimation process (\\(A_{ion}\\)).
 
 # 2. Kinetic Model of Solvent Extraction (ICP-MS)
 
