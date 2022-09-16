@@ -51,7 +51,7 @@ $$\begin{align}\frac{I}{I_{0}} = & \frac{C}{A_{ion}} \int T(\alpha) e^{-\mu_{0}x
 & + I_{bg}/I_{0}
 \end{align}$$
 
-There is an assumption regarding the ion distribution near the surface. 
+There is an assumption regarding the ion distribution near the surface. The ions are distributed uniformly in the bulk (with concentration of \\(n_{ion}\\)) and the adsorbed ions are located very close to the surface (depth negligilbe compared to the penetration depth, \\(\Lambda\\), with \\(A_{ion}\\) surface area per ion). 
 
 # 2. Kinetic Model of Solvent Extraction (ICP-MS)
 
