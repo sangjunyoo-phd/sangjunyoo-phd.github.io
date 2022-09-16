@@ -23,7 +23,7 @@ The X-ray signal reflected from a surface contains valuable information about th
 
 X-ray scattering method collects the intensity of reflected beam at various angles. At each angle, the beam intensity is collected by area detector as an image. It is crucial to process this image and extract the intensity of the "Real Reflection".
 
-## 1.1.2. Mathematical Formulation: X-ray Reflectivity
+### 1.1.2. Mathematical Formulation: X-ray Reflectivity
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
 The specular reflectivity intensity profile as a function of incident (=reflection) angle contains information about the electron density of the material along the z-axis (when a surface is an XY plane).
 
