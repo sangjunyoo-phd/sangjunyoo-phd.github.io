@@ -46,10 +46,12 @@ The fluorescence signal from an atom is linearly correlated with the beam intens
 
 ![image-center](../assets/images/XFNTR_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="70%" width="70%"}
 
-$$\begin{align}\frac{I}{I_{0}} = & \frac{C}{A_{ion}} \integral T(\alpha) e^{-\mu_{0}x'}dx'\\
-& + C \cdot n_{ion} \integral \integral T(\alpha) e^{-|z|/\Lambda (\alpha)} e^{-\mu_{0}x'} dx'dz\\
+$$\begin{align}\frac{I}{I_{0}} = & \frac{C}{A_{ion}} \int T(\alpha) e^{-\mu_{0}x'}dx'\\
+& + C \cdot n_{ion} \int \int T(\alpha) e^{-|z|/\Lambda (\alpha)} e^{-\mu_{0}x'} dx'dz\\
 & + I_{bg}/I_{0}
 \end{align}$$
+
+There is an assumption regarding the ion distribution near the surface. 
 
 # 2. Kinetic Model of Solvent Extraction (ICP-MS)
 
