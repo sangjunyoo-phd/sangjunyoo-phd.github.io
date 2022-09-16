@@ -17,9 +17,17 @@ __X-ray experiment setup. The blue box is an area detector that senses X-ray sca
 The X-ray signal reflected from a surface contains valuable information about the material's composition. X-ray area detector is positioned accordingly to the incident angle to optimally collect signals from the reflected X-ray beam. Image processing should be preceded to properly analyze the X-ray reflectivity data.
 
 ### 1.1.1 Image Processing
+X-ray scattering method collects the intensity of reflected beam at various angles. At each angle, the beam intensity is collected by area detector as an image. It is crucial to process this image and extract the intensity of the "Real Reflection".
+
 ![image-center](../assets/images/reflectivity_good_example.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
 
-X-ray scattering method collects the intensity of reflected beam at various angles. At each angle, the beam intensity is collected by area detector as an image. It is crucial to process this image and extract the intensity of the "Real Reflection".
+A typical scattering image is shown as above: The images look like above are collected from every designated angle. Since the size of the incident beam is regulated by slits and the position of the detector is finely controlled, the reflected beam should fall into a designated region (the center red square in this case). All signals in this region are summed up to represent the reflectivity signal. However, as you might notice, the actual reflectivity signal occupies only a small portion of the region of interest and it means it is very likely to contain a large amount of background noise as a relevant signal.
+
+The background noise should be substracted from the signal. The two red squares on each side play a role here. The background noise is calculated from each box and averaged. This way, we can substract the noise from the middle box and obtain the "real" reflection signal. By repeating this procedure for all angle, we can have an intensity profile over various angle as below.
+
+![image-center](../assets/images/reflectivity_example.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
+**Reflected Intensity Profile as a Function of Angle**
+
 
 ### 1.1.2. Mathematical Formulation: X-ray Reflectivity
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal.
