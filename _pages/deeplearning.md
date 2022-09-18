@@ -13,24 +13,45 @@ List:
 * RNN and explosion/vanishing
 * LSTM (why RNN to LSTM)
 
-# *Predict the Open and Close prices of the S&P 500 Index with LSTM*
+# Predict the Open and Close prices of the S&P 500 Index with LSTM
 I made an LSTM model that predicts the open and close price of the S&P 500 index based on historical data. The historical price data (past 5 years) is scraped from Google Finance. The open and close prices of the next date are predicted based on the past 30 days' data with 5 features: Open, Close, High, Low, and Volume. The first 80% was used as training data, the next 10% as test data, and the last 10% as evaluation data (back-testing). The model evaluation is processed as follows. The model trained with a training set is evaluated with test data to estimate the performance of the model with unseen data. The model has been trained again with the train+test dataset (first 80%+10% = 90%) and evaluated again with the evaluation set. If the model performs as predicted, the evaluation metric from the previous step and this step should be similar to each other.
 
-## **Why LSTM?**
+## Why LSTM?
 By the time I started this project, the only deep learning technique that I know was Artificial Neural Network (ANN). There are several shortcomings with ANN to make a prediction model with historic data (time-series or sequential data). The problem arises from:
 * Increased feature dimension
 * Train/Test split
 
-### Why not ANN: Increased Feature Dimension
+### *Why not ANN: Increased Feature Dimension*
 The ANN cannot tell the past/future data. It predicts the value from the same data entry (i.e. predict one value from other columns within the same row). Therefore, it is necessary to increase the feature dimension to contain the past data within a row. For example, the past data such as a mean of the past 3 days, 5days, ... should be added after the original features. To get an acceptable prediction power, I had to expand the feature dimension by 53, which is exactly the opposite of an ideal situation. Other than this, there are more serious problems left.
 
-### Why not ANN: Test/Train Split
+### *Why not ANN: Test/Train Split*
 To avoid overfitting, it is necessary to test the trained model with "unseen" data. A random split of the data is a typical way to deal with this problem. Randomized splitting is necessary to avoid biased sampling. In this case, however, the random split cannot produce the "unseen" test data. Let's assume the mean of the past 3 days has been added as a feature. If the "random" split assigns 500th data to the test set and 501st to the training set, the model "sees" the information from the 500th entry (test) as a form of a mean of the past 3 days. Therefore, there is no truly unseen test data with the randomized split.
 
-### Why not RNN
+### *Why not RNN*
 After doing some research I found that __Recurrent Neural Network (RNN)__ is capable of dealing with sequential data (or equivalently called as "time-series" data). However, RNN could not predict the S&P prices as well as I wished. The RNN algorithm can hardly deal with the old data becuase it uses fixed weight. <br/>
 For example, I am dealing with sequential data that contains information from past 30 steps. It means the oldest data will be multiplied by weight 30 times: \\(a_{30} = a_{0} W^{30}\\).
 
+## Modeling
+To feed data to the LSTM cells, the data should be converted to the "sequential" form. Define a function that takes data, features, and number of timesteps and return the sequential format of the input data.
+
+```
+# Define a function that reframe data (include past 30 days data)
+def make_sequential_data(X,features,num_timesteps):
+    """
+    Take data X, len_days (number of past days to make a model out of)
+    i-th date: data should be 2-D tensor for a day. len_days rows
+    The overall data will be (date x num_timesteps x num_features) 3-D tensor
+    """
+    data=[]
+    y=[]
+    Y = X[features]
+    Y = np.array(Y)
+    X = np.array(X)
+    for i in range(num_timesteps, len(X)): # range: start point inclusive, end point exclusive (i=30 ~ len(X)-1)
+        data.append(X[i-num_timesteps:i]) # -30 days to current date (i-th date), 5 features
+        y.append(Y[i]) # i+1-th date: indexing starts from 0
+    return np.array(data), np.array(y)
+```
 
 
 # Artificial Neural Network (ANN) and Backpropagation
