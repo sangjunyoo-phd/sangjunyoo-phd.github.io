@@ -82,7 +82,7 @@ Inductively Coupled Plasma Mass Spectrometry (ICP-MS) consists of, not too surpr
 Even though each element has its atomic number, its mass number can vary due to isotopes. For example, erbium (Er; Atomic Number 68) has 6 stable isotopes; \\(^{162}Er\\), \\(^{164}Er\\), \\(^{166}Er\\), \\(^{167}Er\\), \\(^{168}Er\\), and \\(^{170}Er \\). Due to different mass of isotopes, even a sample containing a single element returns several numbers (it measures charge-"mass" ratio), so the overall concentration of the element of interest is an aggregated value of those numbers: Signal intensity weighted by abundance of the isotope in nature.</br>
 Once the "residual" concentration at a givne time (\\(c_{t}\\)) is calculated, it need to be converted to the "extracted" concnentration. This is a quite simple task. Measure the concentration before the extraction (\\(c_{0}\\)), then the extracted concentration after t-minutes of extraction process (\\(E(t)\\)) is defned as follows:
 
-$$ E(t) = (1-\frac{c(t)}{c_{0}}) $$
+$$ E(t) = \left( 1-\frac{c(t)}{c_{0}} \right) $$
 
 **Update Figure after publishing paper: A graph without fittng curve**
 
