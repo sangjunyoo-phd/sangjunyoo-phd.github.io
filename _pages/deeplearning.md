@@ -1,6 +1,5 @@
 ---
 title: "Deep Learning"
-layout: archive
 permalink: /deeplearning/
 toc: true
 ---
@@ -30,7 +29,7 @@ To avoid overfitting, it is necessary to test the trained model with "unseen" da
 
 ### Why not RNN
 After doing some research I found that __Recurrent Neural Network (RNN)__ is capable of dealing with sequential data (or equivalently called as "time-series" data). However, RNN could not predict the S&P prices as well as I wished. The RNN algorithm can hardly deal with the old data becuase it uses fixed weight. <br/>
-For example, I am dealing with sequential data that contains information from past 30 steps. It means the oldest data will be multiplied by weight 30 times: $aW^{30}$.
+For example, I am dealing with sequential data that contains information from past 30 steps. It means the oldest data will be multiplied by weight 30 times: \\(aW^{30}\\).
 
 
 
