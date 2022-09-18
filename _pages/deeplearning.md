@@ -36,7 +36,7 @@ To feed data to the LSTM cells, the data should be converted to the "sequential"
 
 ```
 # Define a function that reframe data (include past 30 days data)
-def make_sequential_data(X,features,num_timesteps):
+def make_sequential_data(X,features,num_timesteps=30):
     """
     Take data X, len_days (number of past days to make a model out of)
     i-th date: data should be 2-D tensor for a day. len_days rows
