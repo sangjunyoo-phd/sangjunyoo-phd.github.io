@@ -145,7 +145,7 @@ for num_cells in [32, 64,128]:
     model_evaluation(model, scaled_X_test, scaled_y_test, scaler2, num_cells)
 ```
 
-* __Result__
+* __Result__<br/>
 ![image-left](../assets/images/32LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
 ====== 32 cells LSTM Model ======<br/>
 Mean Real Open Price: 4543.34<br/>
