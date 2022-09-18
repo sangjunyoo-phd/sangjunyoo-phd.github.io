@@ -193,7 +193,11 @@ RMS Close: 53.21<br/>
 
 
 # Artificial Neural Network (ANN) and Backpropagation
-Test
+Input: 2 numbers
+
+Output: 2 numbers
+
+2 hidden layers
 ## a
 a
 ## b
