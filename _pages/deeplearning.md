@@ -147,38 +147,38 @@ for num_cells in [32, 64,128]:
 
 * __Result__
 
-====== 32 cells LSTM Model ======</br>
-Mean Real Open Price: 4543.34</br>
-Mean Predicted Open Price: 4559.81982421875</br>
-MAE Open: 30.71</br>
-RMS Open: 40.32</br>
+====== 32 cells LSTM Model ======<br/>
+Mean Real Open Price: 4543.34<br/>
+Mean Predicted Open Price: 4559.81982421875<br/>
+MAE Open: 30.71<br/>
+RMS Open: 40.32<br/>
 
-Mean Real Close Price: 4541.39</br>
-Mean Predicted Close Price: 4559.91015625</br>
-MAE Close: 48.0</br>
-RMS Close: 60.31</br>
+Mean Real Close Price: 4541.39<br/>
+Mean Predicted Close Price: 4559.91015625<br/>
+MAE Close: 48.0<br/>
+RMS Close: 60.31<br/>
 
-====== 64 cells LSTM Model ======</br>
-Mean Real Open Price: 4543.34</br>
-Mean Predicted Open Price: 4572.27978515625</br>
-MAE Open: 32.19</br>
-RMS Open: 40.18</br>
+====== 64 cells LSTM Model ======<br/>
+Mean Real Open Price: 4543.34<br/>
+Mean Predicted Open Price: 4572.27978515625<br/>
+MAE Open: 32.19<br/>
+RMS Open: 40.18<br/>
 
-Mean Real Close Price: 4541.39</br>
-Mean Predicted Close Price: 4585.1298828125</br>
-MAE Close: 54.44</br>
-RMS Close: 69.7</br>
+Mean Real Close Price: 4541.39<br/>
+Mean Predicted Close Price: 4585.1298828125<br/>
+MAE Close: 54.44<br/>
+RMS Close: 69.7<br/>
 
-====== 128 cells LSTM Model ======</br>
-Mean Real Open Price: 4543.34</br>
-Mean Predicted Open Price: 4514.02978515625</br>
-MAE Open: 35.01</br>
-RMS Open: 41.64</br>
+====== 128 cells LSTM Model ======<br/>
+Mean Real Open Price: 4543.34<br/>
+Mean Predicted Open Price: 4514.02978515625<br/>
+MAE Open: 35.01<br/>
+RMS Open: 41.64<br/>
 
-Mean Real Close Price: 4541.39</br>
-Mean Predicted Close Price: 4537.4501953125</br>
-MAE Close: 43.0</br>
-RMS Close: 53.21</br>
+Mean Real Close Price: 4541.39<br/>
+Mean Predicted Close Price: 4537.4501953125<br/>
+MAE Close: 43.0<br/>
+RMS Close: 53.21<br/>
 
 
 
