@@ -134,6 +134,62 @@ def model_evaluation(model, scaled_X_test, scaled_y_test, scaler2, num_cells):
     plt.legend()
 ```
 
+The functions defined above are used to automate the creation, optimization, and evaluation of LSTM models with 32, 64, and 128 LSTM cells.
+
+**Automation**
+```ruby
+models = []
+for num_cells in [32, 64,128]:
+    model = single_layer_model(scaled_X_train, scaled_X_test, scaled_y_train, scaled_y_test, num_cells, epochs=100)
+    models.append(model)
+    model_evaluation(model, scaled_X_test, scaled_y_test, scaler2, num_cells)
+```
+
+**Result**
+
+====== 32 cells LSTM Model ======
+Mean Real Open Price: 4543.34
+Mean Predicted Open Price: 4559.81982421875
+MAE Open: 30.71
+RMS Open: 40.32
+
+Mean Real Close Price: 4541.39
+Mean Predicted Close Price: 4559.91015625
+MAE Close: 48.0
+RMS Close: 60.31
+
+====== 64 cells LSTM Model ======
+Mean Real Open Price: 4543.34
+Mean Predicted Open Price: 4572.27978515625
+MAE Open: 32.19
+RMS Open: 40.18
+
+Mean Real Close Price: 4541.39
+Mean Predicted Close Price: 4585.1298828125
+MAE Close: 54.44
+RMS Close: 69.7
+
+====== 128 cells LSTM Model ======
+Mean Real Open Price: 4543.34
+Mean Predicted Open Price: 4514.02978515625
+MAE Open: 35.01
+RMS Open: 41.64
+
+Mean Real Close Price: 4541.39
+Mean Predicted Close Price: 4537.4501953125
+MAE Close: 43.0
+RMS Close: 53.21
+
+
+
+
+
+
+
+
+
+
+
 # Artificial Neural Network (ANN) and Backpropagation
 Test
 ## a
