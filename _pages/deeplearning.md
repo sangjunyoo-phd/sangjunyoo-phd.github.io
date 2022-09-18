@@ -58,7 +58,7 @@ The training data has been scaled using MinMaxScaler() in SciKit-Learn library. 
 ## Modeling and Optimization
 The following libraries are used to make, optimize, and evaluate the LSTM model. For optimization, I make LSTM model with 32, 64, and 128 cells and choose the best. Learning curve and Root Mean Square Error are reported to choose a right model. I also plotted the __probability density function of residue of the prediction (real-prediction)__ to visuallize the model prediction performance. Ideally, the pdf should look like a gaussian peak centered at 0 with small standard deviation.
 
-**Import Libraries**
+* __Import Libraries__
 ```ruby
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
@@ -66,7 +66,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 ```
 
-**Make model and plot learning curve**
+* __Make model and plot learning curve__
 ```ruby
 def single_layer_model(scaled_X_train, scaled_X_test, scaled_y_train, scaled_y_test, num_cells, epochs):
     model = Sequential()
@@ -93,7 +93,7 @@ def single_layer_model(scaled_X_train, scaled_X_test, scaled_y_train, scaled_y_t
     return model
 ```
 
-**Evaluation report function**
+* __Evaluation report function__
 ```ruby
 def model_evaluation(model, scaled_X_test, scaled_y_test, scaler2, num_cells):
     """
@@ -136,7 +136,7 @@ def model_evaluation(model, scaled_X_test, scaled_y_test, scaler2, num_cells):
 
 The functions defined above are used to automate the creation, optimization, and evaluation of LSTM models with 32, 64, and 128 LSTM cells.
 
-**Automation**
+* __Automation__
 ```ruby
 models = []
 for num_cells in [32, 64,128]:
@@ -145,40 +145,40 @@ for num_cells in [32, 64,128]:
     model_evaluation(model, scaled_X_test, scaled_y_test, scaler2, num_cells)
 ```
 
-**Result**
+* __Result__
 
-====== 32 cells LSTM Model ======
-Mean Real Open Price: 4543.34
-Mean Predicted Open Price: 4559.81982421875
-MAE Open: 30.71
-RMS Open: 40.32
+====== 32 cells LSTM Model ======</br>
+Mean Real Open Price: 4543.34</br>
+Mean Predicted Open Price: 4559.81982421875</br>
+MAE Open: 30.71</br>
+RMS Open: 40.32</br>
 
-Mean Real Close Price: 4541.39
-Mean Predicted Close Price: 4559.91015625
-MAE Close: 48.0
-RMS Close: 60.31
+Mean Real Close Price: 4541.39</br>
+Mean Predicted Close Price: 4559.91015625</br>
+MAE Close: 48.0</br>
+RMS Close: 60.31</br>
 
-====== 64 cells LSTM Model ======
-Mean Real Open Price: 4543.34
-Mean Predicted Open Price: 4572.27978515625
-MAE Open: 32.19
-RMS Open: 40.18
+====== 64 cells LSTM Model ======</br>
+Mean Real Open Price: 4543.34</br>
+Mean Predicted Open Price: 4572.27978515625</br>
+MAE Open: 32.19</br>
+RMS Open: 40.18</br>
 
-Mean Real Close Price: 4541.39
-Mean Predicted Close Price: 4585.1298828125
-MAE Close: 54.44
-RMS Close: 69.7
+Mean Real Close Price: 4541.39</br>
+Mean Predicted Close Price: 4585.1298828125</br>
+MAE Close: 54.44</br>
+RMS Close: 69.7</br>
 
-====== 128 cells LSTM Model ======
-Mean Real Open Price: 4543.34
-Mean Predicted Open Price: 4514.02978515625
-MAE Open: 35.01
-RMS Open: 41.64
+====== 128 cells LSTM Model ======</br>
+Mean Real Open Price: 4543.34</br>
+Mean Predicted Open Price: 4514.02978515625</br>
+MAE Open: 35.01</br>
+RMS Open: 41.64</br>
 
-Mean Real Close Price: 4541.39
-Mean Predicted Close Price: 4537.4501953125
-MAE Close: 43.0
-RMS Close: 53.21
+Mean Real Close Price: 4541.39</br>
+Mean Predicted Close Price: 4537.4501953125</br>
+MAE Close: 43.0</br>
+RMS Close: 53.21</br>
 
 
 
