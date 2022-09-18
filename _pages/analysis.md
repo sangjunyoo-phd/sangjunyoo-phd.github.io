@@ -17,7 +17,7 @@ __X-ray experiment setup. The blue box is an area detector that senses X-ray sca
 X-ray reflectivity is one of the most powerful tools to characterize the composition of the surface along the surface normal. The X-ray area detector is positioned accordingly to the incident angle to optimally collect signals from the reflected X-ray beam. Image processing should be preceded to properly analyze the X-ray reflectivity data.
 
 ### 1.1.1 Image Processing
-The X-ray scattering method collects the intensity of the reflected beam at various angles. At each angle, the beam intensity is collected by the area detector as an image. It is crucial to process this image and extract the intensity of the "Real Reflection".
+The X-ray scattering method collects the intensity of the reflected beam at various angles. At each angle, the reflected beam intensity is read by the area detector. The area detector consists of many pixels, the smallest spatial resolution of the sensor, and returns an array full of numbers that represents the intensity of the beam reached to a certain pixel. It is crucial to process this image and extract the intensity of the "Real Reflection".
 
 ![image-center](../assets/images/reflectivity_good_example.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}{:height="75%" width="75%"}
 
