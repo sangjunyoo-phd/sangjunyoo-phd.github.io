@@ -75,13 +75,15 @@ The second term is the contribution of the ions in the bulk. Since the depth of 
 The last term is dedicated to the background noise signal. It has no significant physical meaning, but allows us to optimize further during the parameter estimation process (\\(A_{ion}\\)).
 
 # 2. Kinetic Model of Solvent Extraction (ICP-MS)
+I needed to evaluate the performance of solvent extraction (extracting a target ion from water to an organic solvent) for one of my research projects. One of the ways to evaluate the extraction performance is to measure the "residual" element concentration in the water with ICP-MS to calculate the extracted concentration. My mission is to convert the ICP-MS data to extraction curve and formulate the curve mathematically to extract scientific meanings.
 
-## 2.1. Order of Chemical Reaction
+## 2.1. Data Engineering: ICP-MS signal to Extraction Performance
+Inductively Coupled Plasma Mass Spectrometry (ICP-MS) consists of, not too surprisingly, ICP part and MS part. The ICP part nebulize the sample to aerosol and ionize it with Ar-plasma. The ionized elements go through the MS part and the charge-mass ratio is measured under magnetic field. From the signal intensity from each charge-mass channel, the concentration and composition of the feed solution is determined.
+
+Even though each element has its own atomic number, its mass-number can vary due to isotopes. For example, erbium (Er; Atomic Number 68) has 6 stable isotopes; \\(^{162}Er, ^{164}Er, ^{166}Er, ^{167}Er, ^{168}Er, ^{170}Er \\). Due to different mass, even a single element occupies several charge-mass channel, so overall concentration is an aggregated value of those numbers.
+
+## 2.2. Order of Chemical Reaction
 What is chemical reaction order and how to determine.
-
-## 2.2. Data Engineering: ICP-MS signal to Extraction Performance
-How did I change ICP-MS data to Extraction curve.   
-Include code
 
 ## 2.3. Non-Linear Regression and Its Interpretation
 Exponentials and their interpretation
