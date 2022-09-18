@@ -139,39 +139,40 @@ for num_cells in [32, 64,128]:
 ```
 
 * __Result__<br/>
-![image-left](../assets/images/32LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
+According to learning curves, no overfitting was observed from all samples. When overfitting occurs, the test loss (error with respect to the test set; orange curves) explodes while errors from training curve stays low. Take the simplist model (32 LSTM cells) for a good practice.
+![image-left](../assets/images/32LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="80%" width="80%"}
 ====== 32 cells LSTM Model ======<br/>
 Mean Real Open Price: 4543.34<br/>
-Mean Predicted Open Price: 4559.81982421875<br/>
+Mean Predicted Open Price: 4559.82<br/>
 MAE Open: 30.71<br/>
 RMS Open: 40.32<br/>
 
 Mean Real Close Price: 4541.39<br/>
-Mean Predicted Close Price: 4559.91015625<br/>
+Mean Predicted Close Price: 4559.91<br/>
 MAE Close: 48.0<br/>
 RMS Close: 60.31<br/>
 
-![image-left](../assets/images/64LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
+![image-left](../assets/images/64LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="80%" width="80%"}
 ====== 64 cells LSTM Model ======<br/>
 Mean Real Open Price: 4543.34<br/>
-Mean Predicted Open Price: 4572.27978515625<br/>
+Mean Predicted Open Price: 4572.28<br/>
 MAE Open: 32.19<br/>
 RMS Open: 40.18<br/>
 
 Mean Real Close Price: 4541.39<br/>
-Mean Predicted Close Price: 4585.1298828125<br/>
+Mean Predicted Close Price: 4585.13<br/>
 MAE Close: 54.44<br/>
 RMS Close: 69.7<br/>
 
-![image-left](../assets/images/128LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
+![image-left](../assets/images/128LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}{:height="80%" width="80%"}
 ====== 128 cells LSTM Model ======<br/>
 Mean Real Open Price: 4543.34<br/>
-Mean Predicted Open Price: 4514.02978515625<br/>
+Mean Predicted Open Price: 4514.03<br/>
 MAE Open: 35.01<br/>
 RMS Open: 41.64<br/>
 
 Mean Real Close Price: 4541.39<br/>
-Mean Predicted Close Price: 4537.4501953125<br/>
+Mean Predicted Close Price: 4537.45<br/>
 MAE Close: 43.0<br/>
 RMS Close: 53.21<br/>
 
