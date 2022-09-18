@@ -32,7 +32,7 @@ After doing some research I found that __Recurrent Neural Network (RNN)__ is cap
 For example, I am dealing with sequential data that contains information from past 30 steps. It means the oldest data will be multiplied by weight 30 times: \\(a_{30} = a_{0} W^{30}\\).
 
 ## Modeling
-To feed data to the LSTM cells, the data should be converted to the "sequential" form. Define a function that takes data, features, and number of timesteps and return the sequential format of the input data.
+To feed data to the LSTM cells, the data should be converted to the "sequential" form. Define a function that takes data, features of interest, and number of timesteps and return the sequential format of the input data.
 
 ```
 # Define a function that reframe data (include past 30 days data)
