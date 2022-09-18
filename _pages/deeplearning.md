@@ -177,7 +177,7 @@ MAE Close: 43.0<br/>
 RMS Close: 53.21<br/>
 
 **Open/Close price predicted from LSTM model with 32 cells**
-![image-center](../assets/images/exp_setup.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
+![image-center](../assets/images/32LSTM_prediction.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
 
 
 
