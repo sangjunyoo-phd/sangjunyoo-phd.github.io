@@ -4,14 +4,7 @@ permalink: /deeplearning/
 toc: true
 ---
 
-**Work in progress**
-
-Post what I have studied
-
-List:
-* ANN and back propagation with example code (2 hidden layers with 2 nodes)
-* RNN and explosion/vanishing
-* LSTM (why RNN to LSTM)
+**Work in progress: Post what I have studied**
 
 # Predict the Open and Close prices of the S&P 500 Index with LSTM
 I made an LSTM model that predicts the open and close price of the S&P 500 index based on historical data. The historical price data (past 5 years) is scraped from Google Finance. The open and close prices of the next date are predicted based on the past 30 days' data with 5 features: Open, Close, High, Low, and Volume. The first 80% was used as training data, the next 10% as test data, and the last 10% as evaluation data (back-testing). The model evaluation is processed as follows. The model trained with a training set is evaluated with test data to estimate the performance of the model with unseen data. The model has been trained again with the train+test dataset (first 80%+10% = 90%) and evaluated again with the evaluation set. If the model performs as predicted, the evaluation metric from the previous step and this step should be similar to each other.
