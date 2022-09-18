@@ -34,7 +34,7 @@ For example, I am dealing with sequential data that contains information from pa
 ## Modeling
 To feed data to the LSTM cells, the data should be converted to the "sequential" form. Define a function that takes data, features of interest, and number of timesteps and return the sequential format of the input data.
 
-```
+```ruby
 # Define a function that reframe data (include past 30 days data)
 def make_sequential_data(X,features,num_timesteps=30):
     """
