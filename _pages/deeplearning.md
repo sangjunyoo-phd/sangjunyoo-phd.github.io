@@ -146,7 +146,7 @@ for num_cells in [32, 64,128]:
 ```
 
 * __Result__
-
+![image-left](../assets/images/32LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
 ====== 32 cells LSTM Model ======<br/>
 Mean Real Open Price: 4543.34<br/>
 Mean Predicted Open Price: 4559.81982421875<br/>
@@ -158,6 +158,7 @@ Mean Predicted Close Price: 4559.91015625<br/>
 MAE Close: 48.0<br/>
 RMS Close: 60.31<br/>
 
+![image-left](../assets/images/64LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
 ====== 64 cells LSTM Model ======<br/>
 Mean Real Open Price: 4543.34<br/>
 Mean Predicted Open Price: 4572.27978515625<br/>
@@ -169,6 +170,7 @@ Mean Predicted Close Price: 4585.1298828125<br/>
 MAE Close: 54.44<br/>
 RMS Close: 69.7<br/>
 
+![image-left](../assets/images/128LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
 ====== 128 cells LSTM Model ======<br/>
 Mean Real Open Price: 4543.34<br/>
 Mean Predicted Open Price: 4514.02978515625<br/>
