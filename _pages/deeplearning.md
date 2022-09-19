@@ -362,6 +362,3 @@ def train_model(epochs=10,learning_rate=0.1):
 ```
 * Evaluation
 ![image-center](../assets/images/ANN_evaluation.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
-
-# RNN
-RNN and its limitation
