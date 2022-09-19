@@ -200,6 +200,9 @@ The followings are the observation I have made and my postulations:
 * LSTM can somewhat closely predict the close price, but the performance is **Degenerated**. (Split to the two curves)
 * Therefore, non-historic features rolled in. **I propose stochastic daily fluctuation of the index affects the close price**.
 
+## Future study
+* To figure out what actually degenerates the close price. If it is really a stochastic fluctuation, can we take it into account?
+* It is hard to make money out of my evaluation metrics: Switch the model to determine if close > open within a day and make an algorithm to sell, buy, and hold according to the prediction. Construct a portfolio that has evenly distributed stocks along the S&P 500 companies and evaluate how profitable that portfolio is.
 
 # Artificial Neural Network (ANN) and Backpropagation
 Questions I had:
