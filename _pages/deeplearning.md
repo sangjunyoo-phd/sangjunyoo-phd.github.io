@@ -27,7 +27,7 @@ For example, I am dealing with sequential data that contains information from pa
 ## Modeling and Optimization
 
 ### Data Engineering: Scaling and Converting to a Sequential Format
-To feed data to the LSTM cells, the data should be converted to the "sequential" form. Define a function that takes data, features of interest, and number of timesteps and return the sequential format of the input data.
+To feed data to the LSTM cells, the data should be converted to the "sequential" form. Define a function that takes data, features of interest, and the number of timesteps and returns the sequential format of the input data.
 
 ```ruby
 # Define a function that reframe data (include past 30 days data)
@@ -49,9 +49,9 @@ def make_sequential_data(X,features,num_timesteps=30):
 ```
 
 ### Creating Model and Evaluation Methods
-The training data has been scaled using MinMaxScaler() in SciKit-Learn library. I choose MinMaxScaler (scale numbers between 0 and 1) over StandardScaler because the price value itself looks more relevant to the prediction than the Z-score (StandardScaler). All data entry has been scaled with the same scaler object that used to transform the training data. This is to avoid information leakage from the test or evaluation set.
+The training data has been scaled using MinMaxScaler() in the SciKit-Learn library. I choose MinMaxScaler (scale numbers between 0 and 1) over StandardScaler because the price value itself looks more relevant to the prediction than the Z-score (StandardScaler). All data entry has been scaled with the same scaler object that is used to transform the training data. This is to avoid information leakage from the test or evaluation set.
 
-The following libraries are used to make, optimize, and evaluate the LSTM model. For optimization, I make LSTM model with 32, 64, and 128 cells and choose the best. Learning curve and Root Mean Square Error are reported to choose a right model. I also plotted the __probability density function of residue of the prediction (real-prediction)__ to visuallize the model prediction performance. Ideally, the pdf should look like a gaussian peak centered at 0 with small standard deviation.
+The following libraries are used to make, optimize, and evaluate the LSTM model. For optimization, I make LSTM models with 32, 64, and 128 cells and choose the best. Learning curve and Root Mean Square Error are reported to choose the right model. I also plotted the __probability density function of the residue of the prediction (real-prediction)__ to visualize the model prediction performance. Ideally, the pdf should look like a gaussian peak centered at 0 with a small standard deviation.
 
 * __Import Libraries__
 ```ruby
