@@ -2,7 +2,6 @@
 title: "Deep Learning"
 permalink: /deeplearning/
 toc: true
-link: https://github.com/sangjunyoo-phd/ANN-and-Backpropagation/blob/main/ANN%20and%20Backpropagation.ipynb
 ---
 
 **Work in progress: Post what I have studied**
