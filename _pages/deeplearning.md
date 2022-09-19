@@ -249,7 +249,7 @@ def mean_square_error(yhat,y=[0.2,0.7]):
 ```
 * Vector & Tensor calculus: Copy from JupyterNotebook or github
 
-[link](#)
+[link](https://github.com/sangjunyoo-phd/ANN-and-Backpropagation/blob/main/ANN%20and%20Backpropagation.ipynb)
 
 
 * Update weights: 1st and 2nd layer
