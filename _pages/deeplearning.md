@@ -138,7 +138,7 @@ for num_cells in [32, 64,128]:
     model_evaluation(model, scaled_X_test, scaled_y_test, scaler2, num_cells)
 ```
 
-* __Result__<br/>
+## Result
 According to learning curves, no overfitting was observed from all samples. When overfitting occurs, the test loss (error with respect to the test set; orange curves) explodes while errors from training curve stays low. Take the simplist model (32 LSTM cells) for a good practice.<br/>
 ![image-left](../assets/images/32LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
 ====== 32 cells LSTM Model ======<br/>
@@ -179,7 +179,8 @@ RMS Close: 53.21<br/>
 **Open/Close price predicted from LSTM model with 32 cells**
 ![image-center](../assets/images/32LSTM_prediction.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
 
-
+## Probability Density Function of residues
+Interesting phenomena is observed from the pdf of residue (real value - predicted value). 
 
 
 
