@@ -26,7 +26,7 @@ For example, I am dealing with sequential data that contains information from pa
 
 ## Modeling and Optimization
 
-### Data Engineering: Scaling and Sequential
+### Data Engineering: Scaling and Converting to a Sequential Format
 To feed data to the LSTM cells, the data should be converted to the "sequential" form. Define a function that takes data, features of interest, and number of timesteps and return the sequential format of the input data.
 
 ```ruby
