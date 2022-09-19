@@ -150,8 +150,7 @@ According to learning curves, no overfitting was observed from all samples. When
 Mean Real Open Price: 4543.34<br/>
 Mean Predicted Open Price: 4559.82<br/>
 MAE Open: 30.71<br/>
-RMS Open: 40.32<br/>
-
+RMS Open: 40.32<br/><br/>
 Mean Real Close Price: 4541.39<br/>
 Mean Predicted Close Price: 4559.91<br/>
 MAE Close: 48.0<br/>
@@ -163,8 +162,7 @@ RMS Close: 60.31<br/>
 Mean Real Open Price: 4543.34<br/>
 Mean Predicted Open Price: 4572.28<br/>
 MAE Open: 32.19<br/>
-RMS Open: 40.18<br/>
-
+RMS Open: 40.18<br/><br/>
 Mean Real Close Price: 4541.39<br/>
 Mean Predicted Close Price: 4585.13<br/>
 MAE Close: 54.44<br/>
@@ -176,8 +174,7 @@ RMS Close: 69.7<br/>
 Mean Real Open Price: 4543.34<br/>
 Mean Predicted Open Price: 4514.03<br/>
 MAE Open: 35.01<br/>
-RMS Open: 41.64<br/>
-
+RMS Open: 41.64<br/><br/>
 Mean Real Close Price: 4541.39<br/>
 Mean Predicted Close Price: 4537.45<br/>
 MAE Close: 43.0<br/>
@@ -188,12 +185,6 @@ RMS Close: 53.21<br/>
 
 ## Probability Density Function of residues
 Interesting phenomena is observed from the pdf of residue (real value - predicted value). 
-
-
-
-
-
-
 
 # Artificial Neural Network (ANN) and Backpropagation
 Questions I had:
