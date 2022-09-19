@@ -183,8 +183,23 @@ RMS Close: 53.21<br/>
 * __Open/Close price predicted from LSTM model with 32 cells__
 ![image-center](../assets/images/32LSTM_prediction.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
 
-## Probability Density Function of residues
-Interesting phenomena is observed from the pdf of residue (real value - predicted value). 
+## Discussion: Probability Density Function of Residues
+![image-center](../assets/images/LSTM_residue_merged.svg){: .align-center}{:style="border: 0px solid black; padding: 10px"}
+
+The above graphs are the residue pdf plots of the upper 3 cases and interesting phenomena are observed from them. Regardless of the model complexity, the residue of the open price follows a __SINGLE__ gaussian distribution centered at 0 (or close to 0). When it comes to the close prices, on the other hand, the residue can be fitted with __two different gaussian curves__. The following graph (32 LSTM cells model evaluated with test dataset) shows the two gaussian peaks clearer.
+![image-center](../assets/images/32LSTM_residue_with_fittings.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
+
+The model is retrained with Train (first 80%) and test (next 10%) data sets and evaluated again with the evaluation set (last 10%). Interestingly, the same phenomena are found in the evaluation set too.
+![image-center](../assets/images/LSTM_eval_residue_fitting.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
+
+## Conclusion
+The followings are the observation I have made and my postulations:
+* LSTM predicts the open price reliably: Predictions are either consistently precise, lower, or higher than the real values. (Single Gaussian Peak)
+* Open price is reliably predictable from the historic data.
+* LSTM should also be able to predict close price with similar performance **IF** close price is also dependent on the historic data.
+* LSTM can somewhat closely predict the close price, but the performance is **Degenerated**. (Split to the two curves)
+* Therefore, non-historic features rolled in. **I propose stochastic daily fluctuation of the index affects the close price**.
+
 
 # Artificial Neural Network (ANN) and Backpropagation
 Questions I had:
