@@ -140,7 +140,7 @@ for num_cells in [32, 64,128]:
 
 ## Result
 According to learning curves, no overfitting was observed from all samples. When overfitting occurs, the test loss (error with respect to the test set; orange curves) explodes while errors from training curve stays low. Take the simplist model (32 LSTM cells) for a good practice.<br/>
-![image-left](../assets/images/32LSTM_learningcurve.png){: .align-left}{:style="border: 0px solid black; padding: 10px"}
+![image-left](../assets/images/32LSTM_learningcurve.png){:style="border: 0px solid black; padding: 10px"}
 ====== 32 cells LSTM Model ======<br/>
 Mean Real Open Price: 4543.34<br/>
 Mean Predicted Open Price: 4559.82<br/>
