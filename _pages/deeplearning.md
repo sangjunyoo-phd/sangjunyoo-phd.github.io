@@ -204,7 +204,7 @@ The followings are the observation I have made and my postulations:
 * To figure out what actually degenerates the close price. If it is really a stochastic fluctuation, can we take it into account?
 * It is hard to make money out of my evaluation metrics: Switch the model to determine if close > open within a day and make an algorithm to sell, buy, and hold according to the prediction. Construct a portfolio that has evenly distributed stocks along the S&P 500 companies and evaluate how profitable that portfolio is.
 
-# Artificial Neural Network (ANN) and Backpropagation
+# Artificial Neural Network (ANN) and Backpropagation: Work in progress
 Questions I had:
 * Why "Back"propagation
 * How does the parameters updated individually
