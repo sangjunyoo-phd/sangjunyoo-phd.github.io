@@ -190,7 +190,7 @@ The above graphs are the residue pdf plots of the upper 3 cases and interesting 
 ![image-center](../assets/images/32LSTM_residue_with_fittings.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
 
 The model is retrained with Train (first 80%) and test (next 10%) data sets and evaluated again with the evaluation set (last 10%). Interestingly, the same phenomena are found in the evaluation set too.
-![image-center](../assets/images/LSTM_eval_residue_fitting.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
+![image-center](../assets/images/32LSTM_eval_residue_fitting.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
 
 ## Conclusion
 The followings are the observation I have made and my postulations:
