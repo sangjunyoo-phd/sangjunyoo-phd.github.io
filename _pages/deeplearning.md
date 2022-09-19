@@ -189,17 +189,27 @@ Interesting phenomena is observed from the pdf of residue (real value - predicte
 
 
 # Artificial Neural Network (ANN) and Backpropagation
+Questions I had:
+* Why "Back"propagation
+* How does the parameters updated individually
+
+## Model
+![image-center](../assets/images/ANN_model.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
 Input: 2 numbers
 
 Output: 2 numbers
 
 2 hidden layers
-## a
-a
-## b
-b
-## c
-c
+## Initialize
+![image-center](../assets/images/ANN_model_initialize.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
+Ideally, random number. Choosing any number will do my purpose of study.
+
+## Optimization
+Provide code & equation:
+* Forward Propagation -> MSE
+* Vector & Tensor calculus
+* Update weights: 1st and 2nd layer
+* Model training
 
 # RNN
 RNN and its limitation
