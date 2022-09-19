@@ -207,9 +207,145 @@ Ideally, random number. Choosing any number will do my purpose of study.
 ## Optimization
 Provide code & equation:
 * Forward Propagation -> MSE
-* Vector & Tensor calculus
+```ruby
+def get_yhat(x=[0.8,0.3], y=[0.2,0.7], w1=[0.1,0.2,0.3,0.4], w2=[0.5,0.6,0.7,0.8], b1=[0.1,0.1], b2=[0.1,0.1]):
+    # Reshape w1 and w2 to matrix form
+    w1=np.reshape(w1,(2,2))
+    w2=np.reshape(w2,(2,2))
+    
+    # 1st Layer
+    z1=np.dot(w1,x)+b1
+    a1=[max(0,item) for item in z1]
+    
+    # 2nd Layer
+    z2=np.dot(w2,a1)+b2
+    a2=[max(0,item) for item in z2]
+    return a2
+```
+
+```ruby
+def mean_square_error(yhat,y=[0.2,0.7]):
+    err = list()
+    for item1, item2 in zip(yhat, y):
+        err.append((item1-item2)**2)
+    return sum(err)/len(err)
+```
+* Vector & Tensor calculus: Copy from JupyterNotebook or github
 * Update weights: 1st and 2nd layer
-* Model training
+```ruby
+# Define a function that updates the weights and bias of the second layer
+def update_second_layer(w1,w2,b1,b2,yhat=get_yhat(),learning_rate=0.1,x=[0.8,0.3],y=[0.2,0.7]):
+    # Reshape w1 and w2 to matrix form
+    w1=np.reshape(w1,(2,2))
+    w2=np.reshape(w2,(2,2))
+    # 1st Layer
+    z1=np.dot(w1,x)+b1
+    a1=relu(z1)
+    z2=np.dot(w2,a1)
+    
+    # Convert list -> array for substraction
+    y=np.asarray(y)
+    yhat=np.asarray(yhat)
+    
+    # Calculate gradient
+    # Note:
+    # when x=[1,2]
+    # np.vstack((x,x)) = [[1,2],[1,2]] -> (a2-y) and (Relu'(z))
+    # np.vstack((x,x)).T = [[1,1],[2,2]] -> a1
+    
+    grad_w2 = np.vstack((yhat-y,yhat-y)).T*np.vstack((drelu(z2),drelu(z2))).T*np.vstack((a1,a1))
+    grad_b2 = (yhat-y)*(drelu(z2))
+    
+    # Update parameters with gradient descent
+    updated_weight = w2 - grad_w2 * learning_rate
+    updated_weight = list(np.reshape(updated_weight,(4,)))
+    updated_b = b2 - grad_b2 * learning_rate
+    
+    return updated_weight, updated_b
+```
+
+```ruby
+# Define a function that updates the weights and bias of the first layer
+def update_first_layer(w1,w2,b1,b2,yhat=get_yhat(),learning_rate=0.1,x=[0.8,0.3],y=[0.2,0.7]):
+    # Reshape w1 and w2 to matrix form
+    w1=np.reshape(w1,(2,2))
+    w2=np.reshape(w2,(2,2))
+    
+    # 1st Layer
+    z1=np.dot(w1,x)+b1
+    a1=relu(z1)
+    z2=np.dot(w2,a1)
+    
+    # Convert list -> array for substraction
+    y=np.asarray(y)
+    yhat=np.asarray(yhat)
+    
+    # Calculate gradient
+    # Note:
+    # when x=[1,2]
+    # np.vstack((x,x)) = [[1,2],[1,2]] -> (a2-y) and (Relu'(z))
+    # np.vstack((x,x)).T = [[1,1],[2,2]] -> a1
+    
+    grad_w1 = np.zeros(shape=(2,2))
+    grad_b1 = np.zeros(shape=(2,))
+    for n in [0,1]:
+        for (i,j) in [(0,0),(0,1),(1,0),(1,1)]:
+            grad_w1[i][j] += (yhat[n]-y[n])*drelu(z2[n])*w2[n][i]*drelu(z1[i])*x[j]
+            if j == 0:    # To stop udating grad_b twice
+                grad_b1[i] += (yhat[n]-y[n])*drelu(z2[n])*w2[n][i]*drelu(z1[i])
+    
+    # Update parameters with gradient descent
+    updated_weight = w1 - grad_w1 * learning_rate
+    updated_weight = list(np.reshape(updated_weight,(4,)))
+    updated_b = b1 - grad_b1 * learning_rate
+    
+    return updated_weight, updated_b
+```
+* Model training and history
+```ruby
+def train_model(epochs=10,learning_rate=0.1):
+    # Initialize
+    w1=[0.1,0.2,0.3,0.4]
+    w2=[0.5,0.6,0.7,0.8]
+    b1=[0.1,0.1]
+    b2=[0.1,0.1]
+    
+    # Record the results
+    history_yhat = []
+    history_err = []
+    yhat=get_yhat(w1=w1,w2=w2,b1=b1,b2=b2)
+    history_yhat.append(yhat)
+    err = mean_square_error(yhat=yhat)
+    history_err.append(err)
+    print(f"Before Training: y1={yhat[0].round(3)} / y2={yhat[1].round(3)} / MSE: {err.round(5)}")
+        
+    # Training
+    i=1
+    while i<=epochs:
+        # Calculate the new weight and Bias
+        new_w1, new_b1 = update_first_layer(w1=w1,w2=w2,b1=b1,b2=b2,yhat=yhat,learning_rate=learning_rate)
+        new_w2, new_b2 = update_second_layer(w1=w1,w2=w2,b1=b1,b2=b2,yhat=yhat,learning_rate=learning_rate)
+        
+        # Forward Propagation
+        yhat=get_yhat(w1=new_w1, w2=new_w2, b1=new_b1, b2=new_b2)
+        history_yhat.append(yhat)
+        err = mean_square_error(yhat=yhat)
+        history_err.append(err)
+        
+        # Update the weight and bias to the new values
+        w1 = new_w1
+        w2 = new_w2
+        b1 = new_b1
+        b2 = new_b2
+        
+        print(f"{i}-th Training: y1={yhat[0].round(3)} / y2={yhat[1].round(3)} / MSE: {err.round(5)}")
+        i+=1
+
+    plot_with_params(w1=w1, w2=w2, b1=b1, b2=b2, yhat=get_yhat(w1=w1, w2=w2, b1=b1, b2=b2))
+    return history_yhat, history_err
+```
+* Evaluation
+![image-center](../assets/images/ANN_evaluation.png){: .align-center}{:style="border: 0px solid black; padding: 10px"}
 
 # RNN
 RNN and its limitation
