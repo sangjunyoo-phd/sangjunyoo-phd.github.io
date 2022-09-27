@@ -80,7 +80,7 @@ For one of my research projects, I needed to evaluate the performance of solvent
 
 ## 2.1. Data Engineering: ICP-MS signal to Extraction Performance
 The Inductively Coupled Plasma Mass Spectrometry (ICP-MS) consists of, not too surprisingly, the ICP part and MS part. The ICP part nebulizes the sample solution to aerosol and ionizes the elements in the aerosol with Argon plasma. The ionized elements go through the MS part and their charge-mass ratio is measured under a magnetic field. From the signal intensity from each charge-mass channel, the element concentration and composition in the feed solution are measured.<br/>
-Each element can have various mass numbers because of the existence of isotopes. For example, erbium (Er; Atomic Number 68) has 6 stable isotopes; \\(^{162}Er\\), \\(^{164}Er\\), \\(^{166}Er\\), \\(^{167}Er\\), \\(^{168}Er\\), and \\(^{170}Er \\). Due to different mass, the mass-spectrometry can distinguish the isotopes of the same element and returns concentrations of each isotope.Therefore, the overall concentration of the element of interest is an aggregated value of those numbers: Signal intensity weighted by abundance of the isotope in nature. Only abundant isotopes are analyzed for a good signal-to-noise ratio.<br/>
+Each element can have various mass numbers because of the existence of isotopes. For example, erbium (Er; Atomic Number 68) has 6 stable isotopes; \\(^{162}Er\\), \\(^{164}Er\\), \\(^{166}Er\\), \\(^{167}Er\\), \\(^{168}Er\\), and \\(^{170}Er \\). Due to different mass, the mass-spectrometry can distinguish the isotopes of the same element and returns concentrations of each isotope.Therefore, the overall concentration of the element of interest is an aggregated value of those numbers: Signal intensity weighted by abundance of the isotope in nature. Only abundant isotopes are analyzed for a good signal-to-noise ratio.<br/><br/>
 **Example: ICP-MS dataformat for Er and Nd mixture samples**
 
 | **Label**  | **142Nd** | **143Nd** | **144Nd** | **145Nd** | **146Nd** | **148Nd** | **166Er** | **167Er** | **168Er** |
@@ -88,7 +88,7 @@ Each element can have various mass numbers because of the existence of isotopes.
 | SAMPLE 1   | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  |
 | SAMPLE 2   | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  | *Number*  |
 
-Once the "residual" concentration at a givne time (\\(c_{t}\\)) is calculated, it need to be converted to the "extracted" concnentration. This is a quite simple task. Measure the concentration before the extraction (\\(c_{0}\\)), then the extracted concentration after t-minutes of extraction process (\\(E(t)\\)) is defned as follows:
+<br/>Once the "residual" concentration at a givne time (\\(c_{t}\\)) is calculated, it need to be converted to the "extracted" concnentration. This is a quite simple task. Measure the concentration before the extraction (\\(c_{0}\\)), then the extracted concentration after t-minutes of extraction process (\\(E(t)\\)) is defned as follows:
 
 $$ E(t) = \left( 1-\frac{c(t)}{c_{0}} \right) $$
 
