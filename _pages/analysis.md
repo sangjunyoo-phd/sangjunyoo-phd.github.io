@@ -84,8 +84,8 @@ Each element can have various mass numbers because of the existence of isotopes.
 **Example: ICP-MS data**<br/>
 | Name     | 166Er | 167Er | 168Er |
 | -------- | ----- | ----- | ----- |
-| SAMPLE 1 | conc | conc | conc |
-| SAMPLE 2 | conc | conc | conc |
+| SAMPLE 1 | conc  | conc  | conc  |
+| SAMPLE 2 | conc  | conc  | conc  |
 
 Once the "residual" concentration at a givne time (\\(c_{t}\\)) is calculated, it need to be converted to the "extracted" concnentration. This is a quite simple task. Measure the concentration before the extraction (\\(c_{0}\\)), then the extracted concentration after t-minutes of extraction process (\\(E(t)\\)) is defned as follows:
 
