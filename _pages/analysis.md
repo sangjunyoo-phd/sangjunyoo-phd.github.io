@@ -3,6 +3,7 @@ title: "Data Analysis Method for Research Projects"
 permalink: /analysis/
 toc: true
 toc_sticky: true
+entries_layout: grid
 ---
 
 **Work in progress**
