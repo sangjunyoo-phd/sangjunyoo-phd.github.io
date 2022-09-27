@@ -83,7 +83,7 @@ The Inductively Coupled Plasma Mass Spectrometry (ICP-MS) consists of, not too s
 Each element can have various mass numbers because of the existence of isotopes. For example, erbium (Er; Atomic Number 68) has 6 stable isotopes; \\(^{162}Er\\), \\(^{164}Er\\), \\(^{166}Er\\), \\(^{167}Er\\), \\(^{168}Er\\), and \\(^{170}Er \\). Due to different mass, the mass-spectrometry can distinguish the isotopes of the same element and returns concentrations of each isotope.Therefore, the overall concentration of the element of interest is an aggregated value of those numbers: Signal intensity weighted by abundance of the isotope in nature.<br/>
 **Example: ICP-MS data**<br/>
 | Name     | 166Er | 167Er | 168Er |
-| -------- | ----- | ----- | ----- |
+|:--------:|:--------:|:--------:|:--------:|
 | SAMPLE 1 | conc  | conc  | conc  |
 | SAMPLE 2 | conc  | conc  | conc  |
 
