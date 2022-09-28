@@ -96,7 +96,7 @@ $$ E(t) = \left( 1-\frac{c(t)}{c_{0}} \right) $$
 
 ## 2.2. Order of Chemical Reaction
 The rate of chemical reaction is known to be proportional to the reactant concentration. The order of chemical reaction means the powers of the concentration of the reactants in the rate equation of that particular chemical reaction. For example, a first order reaction rate is linearly proportional to the concentration of a reactant (\\(Rate \propto [A]^{1}\\)) and a second order is proportional to the square of the concentration of the reactant (\\(Rate \propto [A]^{2}\\)).<br/>
-The reaction rate can be defined as the rate of decreasing reactant concentration. 
+The reaction rate can be defined as the rate of decreasing reactant concentration (\\(Rate \propto -\frac{d[A]}{dt}\\)). 
 
 ## 2.3. Non-Linear Regression and Its Interpretation
 Exponentials and their interpretation
