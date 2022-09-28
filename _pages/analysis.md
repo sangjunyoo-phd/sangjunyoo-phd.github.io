@@ -99,11 +99,11 @@ The rate of chemical reaction is known to be proportional to the reactant concen
 The reaction rate can be defined as the rate of decreasing reactant concentration (\\(Rate \propto -\frac{d[A]}{dt}\\)). Therefore, the first and second order reaction should satisfy the following equations.
 
 $$\begin{align}
-(1st order): & -\frac{d[A]}{dt} = -k \cdot [A]\\
-& [A] = [A_{0}] e^{-kt}\\ \quad\quad ([A_{0}]=[A] at t=0)
-(2nd order): & -\frac{d[A]}{dt} = -k \cdot [A]^{2}\\
-& \frac{d[A]}{[A]^{2}} = -k \cdot dt
-& \frac{1}{[A]} - \frac{1}{[A_{0}]} = -k \cdot t
+(1st order): -\frac{d[A]}{dt} &= -k \cdot [A]\\
+[A] &= [A_{0}] e^{-kt}\\ \quad\quad ([A_{0}]=[A] at t=0)
+(2nd order): -\frac{d[A]}{dt} &= -k \cdot [A]^{2}\\
+& \int \frac{d[A]}{[A]^{2}} &= \int -k \cdot dt
+& \frac{1}{[A]} - \frac{1}{[A_{0}]} &= -k \cdot t
 \end{align}$$
 
 ## 2.3. Non-Linear Regression and Its Interpretation
