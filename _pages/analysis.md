@@ -102,8 +102,8 @@ $$\begin{align}
 (1st order): -\frac{d[A]}{dt} &= -k \cdot [A]\\
 [A] &= [A_{0}] e^{-kt}\\ \quad\quad ([A_{0}]=[A] at t=0)\\
 (2nd order): -\frac{d[A]}{dt} &= -k \cdot [A]^{2}\\
-& \int \frac{d[A]}{[A]^{2}} &= \int -k \cdot dt
-& \frac{1}{[A]} - \frac{1}{[A_{0}]} &= -k \cdot t
+\int \frac{d[A]}{[A]^{2}} &= \int -k \cdot dt\\
+\frac{1}{[A]} - \frac{1}{[A_{0}]} &= -k \cdot t
 \end{align}$$
 
 ## 2.3. Non-Linear Regression and Its Interpretation
