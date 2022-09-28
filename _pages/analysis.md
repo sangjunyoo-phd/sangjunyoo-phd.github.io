@@ -87,7 +87,7 @@ All elements in the world have various mass numbers because of the existence of 
 | SAMPLE 1   | *Nd conc1* | *Nd conc2*  | *Nd conc3*  | *Nd conc4*  | *Nd conc5*  | *Nd conc6*  | *Er conc1*  | *Er conc2*  | *Er conc3*  |
 | SAMPLE 2   | *Nd conc1* | *Nd conc2*  | *Nd conc3*  | *Nd conc4*  | *Nd conc5*  | *Nd conc6*  | *Er conc1*  | *Er conc2*  | *Er conc3*  |
 
-<br/>Once the "residual" concentration at a givne time (\\(c_{t}\\)) is calculated, it need to be converted to the "extracted" concnentration. This is a quite simple task. Measure the concentration before the extraction (\\(c_{0}\\)), then the extracted concentration after t-minutes of extraction process (\\(E(t)\\)) is defned as follows:
+<br/>Once the "residual" concentration at a givne time (\\(c(t)\\)) is calculated, it need to be converted to the "extracted" concnentration. This is a quite simple task. Measure the concentration before the extraction (\\(c_{0}\\)), then the extracted concentration after t-minutes of extraction process (\\(E(t)\\)) is defned as follows:
 
 $$ E(t) = \left( 1-\frac{c(t)}{c_{0}} \right) $$
 
