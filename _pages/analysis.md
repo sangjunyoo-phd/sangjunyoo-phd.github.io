@@ -80,7 +80,8 @@ For one of my research projects, I needed to evaluate the performance of solvent
 
 ## 2.1. ICP-MS signal to Extraction Performance
 All elements in the world have various mass numbers because of the existence of isotopes. For example, erbium (Er; Atomic Number 68) has 6 stable isotopes; \\(^{162}\\)Er, \\(^{164}\\)Er, \\(^{166}\\)Er, \\(^{167}\\)Er, \\(^{168}\\)Er, and \\(^{170}\\)Er. Due to different mass, the mass-spectrometry can distinguish the isotopes of the same element and reads concentrations of each isotope. The software integrated into the equipment calculates the element concentration (in ppb) from each isotope by dividing the concentration of isotope by its abundance. For example, if I analyze \\(^{166}\\)Er, \\(^{167}\\)Er, and \\(^{168}\\)Er, the software returns the concentration of Er from 3 channels (each assigned to each isotope). I took the average of those concentrations as the representative residual element concentration.<br/><br/>
-**Example: ICP-MS dataformat for Er and Nd mixture samples. Er concentration: AVG of Er conc 1~3 and Nd concentration: AVG of Nd conc 1~6**
+**Example: ICP-MS dataformat for Er and Nd mixture samples**<br/>
+Er concentration: AVG of Er conc 1~3 and Nd concentration: AVG of Nd conc 1~6
 
 | **Label**  | **142Nd** | **143Nd** | **144Nd** | **145Nd** | **146Nd** | **148Nd** | **166Er** | **167Er** | **168Er** |
 |:----------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
