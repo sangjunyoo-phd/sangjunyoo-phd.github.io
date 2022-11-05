@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "ML&DS Projects"
-    url: /mlprojects/
-  - title: "Deep Learning"
-    url: /deeplearning/
+#  - title: "ML&DS Projects"
+#    url: /mlprojects/
+#  - title: "Deep Learning"
+#    url: /deeplearning/
   - title: "Research Projects"
     url: /research/
   - title: "Data Analysis"
