@@ -8,6 +8,8 @@ toc_label: "Data Analysis"
 
 **Work in progress**
 
+Test change!
+
 # 1. X-ray Experiments Analysis
 I mainly conduct two types of X-ray experiments: X-ray scattering (reflectivity) and X-ray Fluorescence Near Total Reflection (XFNTR). Each experiment requires extensive signal processing and analysis procedures to extract scientific meanings. This section is intended to showcase how I went through all those processes.
 
@@ -111,11 +113,3 @@ $$\begin{align}
 ## 2.3. Non-Linear Regression and Its Interpretation
 Exponentials and their interpretation
 
-# 3. Isotherm of Langmuir Monolayer
-Brief description of Langmuir monolayer
-
-## 3.1. Trouble Shooting: Langmuir Trough and the Barrier Position
-Malfunctioning barrier position sensor.
-
-## 3.2. Software Approach Problem Solving
-Include code
